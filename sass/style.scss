@@ -6,6 +6,21 @@ body{
     width: 100%;
 }
 
+h2{
+   font-family: "Lucida Grande";
+    font-size: 20px; 
+}
+
+h3{
+    font-family: "Lucida Grande";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+   font-family: "Lucida Grande";
+    font-size: 12px; 
+}
 /*.wrapper{
     display: grid;
     grid-template-columns: repeat(12,1fr);
@@ -79,7 +94,34 @@ body{
     float: right;
     background-color: #e4e4e4;
     width: 40%;
-    height: 550px;
+    height: 551px;
+    &__navn{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+     &__titel{
+        margin-top: 3px;
+        margin-left: 31px;
+        font-size: 14px;
+         font-style: italic;
+    }
+     &__achievements{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+     &__point{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+}
+
+.topics{
+   width: 96%;
+    height: 250px;
+    background-color: #e4e4e4;
+    margin-left: 30px;
+    margin-top:350px;
 }
 
 // SLIDER JUMP IN START//
@@ -87,11 +129,11 @@ body{
 #hi {
   max-width:790px;
     float: left;
-    margin-left: 27px;
+    margin-left: 30px;
 }
 
 h1 {
-  font-family:'cabin', sans-serif;
+  font-family: 'Lucida Grande';
   text-align:center;
   padding-top:30px;
 }
@@ -101,7 +143,7 @@ h1 {
   width:25px;
   vertical-align:top;
   display:inline-block;
-  background-color:#fff;
+  background-color:#8cbbdd;
   cursor: pointer;
   -webkit-user-select: none;        
   -moz-user-select: none;
@@ -110,7 +152,6 @@ h1 {
   font-size: 21px;
   padding-top: 132px;
   padding-left: 15px;
-  margin-top:15px;
 }
 .slide_control.l{
   margin-right:28px;
@@ -123,7 +164,8 @@ h1 {
   color:blue;
 }
 .slider_boxes {
-    margin-top: 10px;}
+  margin-top: 5px;
+}
 
 .slider_main {
   padding-left:0;
@@ -135,11 +177,14 @@ h1 {
   display: inline-block;
   width: 311px;
 	height: 300px;
-	background-color: #34648f;
+	//background-color: #34648f;//
 	margin-right: 20px;
 	vertical-align: bottom;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+.box_img{
+    position: absolute;}
+
 .XXX {
   display:none !important;
 }
@@ -147,68 +192,43 @@ h1 {
 	padding:27px;
 	position: relative;
   text-align:center;
+   
 }
 .slider_box_text h3 {
 	font-size: 21px;
 	color: rgba(0,0,0,.87);
-	font-family: 'open sans', sans-serif;
+	font-family: 'Lucida Grande';
 	margin-bottom:12px;
 	position: relative;
+    color: white;
 }
 .slider_box_text p {
 	font-size: 16px;
 	line-height: 25px;
 	color: rgba(0,0,0,.54);
-	font-family: 'open sans', sans-serif;
+	font-family: 'Lucida Grande';
 	position: relative;
   margin-bottom: 25px;
+    color: white;
 }
 .slider_box_text a {
-  border: 2px solid #dd0028;
+  border: 2px solid #f49500;
   padding: 5px 20%;
   color: rgba(0,0,0,.87);
   text-decoration: none;
-  font-family:'open sans', sans-serif;
+  font-family:'Lucida Grande';
   text-transform:uppercase;
   letter-spacing:3px;
   font-size:12px;
+    color: white;
+    margin-top: 50%;
 }
 
-@media(max-width:1200px) {
-  .slider_boxes ul li {
-    width:247px;
-    height:246px;
-  }
-  .slider_box_text h3 {
-    font-size:16px;
-  }
-  .slider_box_text p {
-    font-size:12px;
-    line-height:21px;
-  }
-  .slider_box_text a {
-    font-size:11px;
-  }
-  .slide_control {
-    height: 151px;
-    padding-top: 95px;
-  }
+.jumpIn{
+    margin-top: 80%;
 }
 
-@media(max-width:999px) {
-  .slider_boxes ul li {
-    width:180px;
-    height:334px;
-  }
-  .slider_box_text a {
-    padding:5px 10%;
-    font-size:8px;
-  }
-  .slide_control {
-    padding-top: 160px;
-    height: 176px;
-  }
-} 
+
 //* SLIDER JUMP IN END*//
 
 
