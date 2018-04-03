@@ -80,13 +80,7 @@ p {
     clear: both;
 }
 
-.topics{
-   width: 96%;
-    height: 250px;
-    background-color: #e4e4e4;
-    margin-left: 30px;
-    margin-top:350px;
-}
+
 
 // SLIDER JUMP IN START//
 
@@ -197,6 +191,13 @@ h1 {
 
 
 /* Top topics filter  ---  */
+
+.topic-filter {
+	margin-top: 150px;
+	float: left;
+	width: 100%;
+}
+
 
 #topics { 
 	width:100%; 
