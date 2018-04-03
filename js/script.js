@@ -69,10 +69,11 @@ function filterFunction() {
     if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
       btn[i].style.display = "";
     } else {
-      btn[i].style.display = "none";
+      btn [i].style.display = "none";
     }
   }
 }
+
 
 
 
