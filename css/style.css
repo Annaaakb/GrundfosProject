@@ -87,7 +87,8 @@ h1 {
 
 .slider_header h1 {
   padding: 10px;
-  text-align: left; }
+  text-align: left;
+  margin-left: 15px; }
 
 .slide_control {
   height: 171px;
