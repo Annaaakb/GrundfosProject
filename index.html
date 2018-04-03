@@ -16,7 +16,7 @@
 <body> 
 <img src="images/header.png" id="header" alt="Grundfos header">
     
-    <div>
+    <div class="top">
         <!--<section class="wrapper"> -->  
     <section class="tagline">
         
@@ -100,7 +100,131 @@
  -->
     
 
-  <section class="topics"></section>
+
+	
+	
+	<div class="topic-filter">
+
+		<div class="container ">
+			<p href="" data-rel="all">All</p>
+			<p data-rel="new">New</p>
+			<p data-rel="recom">Recommended</p>
+			<p data-rel="recent">Recent</p>
+			<div style="clear:both;"></div>
+		</div>	
+
+	<div class="underfilter">
+		<div class="dropdown myBtnContainer">
+		  <button onclick="myFunction()" class="dropbtn">Role</button>
+			  <div id="myDropdown" class="dropdown-content">
+					<p class="btn" onclick="filterSelection('partner')">Channel partner</p>
+					<p class="btn" onclick="filterSelection('heating')">Heating engineer/ Domestic installer</p>
+					<p class="btn" onclick="filterSelection('industry')">Industry engineer/ Commercial buildings</p>
+					<p class="btn" onclick="filterSelection('all')">All</p>
+			  </div>
+		</div>
+
+		<div class="dropdown myBtnContainer">
+		  <button onclick="myFunction()" class="dropbtn">Area</button>
+			  <div id="myDropdown" class="dropdown-content">
+					<p class="btn" onclick="filterSelection('domestic')">Domestic</p>
+					<p class="btn" onclick="filterSelection('commercial')">Commercial</p>
+					<p class="btn" onclick="filterSelection('hvac')">HVAC OEM</p>
+					<p class="btn" onclick="filterSelection('all')">All</p>
+			  </div>
+		</div>
+
+		<div class="dropdown myBtnContainer">
+		  <button onclick="myFunction()" class="dropbtn">Method</button>
+			  <div id="myDropdown" class="dropdown-content">
+					<p class="btn" onclick="filterSelection('read')">Read</p>
+					<p class="btn" onclick="filterSelection('watch')">Watch</p>
+					<p class="btn" onclick="filterSelection('listen')">Listen</p>
+					<p class="btn" onclick="filterSelection('all')">All</p>
+			  </div>
+		</div>
+
+		<input type="range" min="5" max="30" value="10 min" class="slider" id="myRange">	
+
+	</div>
+
+
+
+
+	<div id="topics" class="container">
+
+			  <div class="tile new all">
+					<p class="filterDiv industry hvac listen all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+			  <div class="tile recent all">
+				  <p class="filterDiv partner domestic read all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+			  <div class="tile new all">
+				  <p class="filterDiv partner domestic listen all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+			  <div class="tile new all">
+				  <p class="filterDiv heating commercial watch all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+			  <div class="tile recom all">
+				  <p class="filterDiv partner domestic read all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+			  <div class="tile recent all">
+				  <p class="filterDiv heating commercial watch all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+			  <div class="tile recom all">
+				  <p class="filterDiv heating commercial watch all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+			  <div class="tile recom all">
+				  <p class="filterDiv partner domestic listen all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+			  <div class="tile new all">
+				  <p class="filterDiv partner domestic listen all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+			  <div class="tile recom all">
+				  <p class="filterDiv industry hvac watch all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+			  <div class="tile new all">
+					<p class="filterDiv industry hvac watch all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+			  <div class="tile recent all">
+				  <p class="filterDiv partner domestic listen all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+			  <div class="tile new all">
+					<p class="filterDiv industry hvac read all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+			  <div class="tile recent all">
+				   <p class="filterDiv industry hvac listen all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+			  <div class="tile new all">
+				  <p class="filterDiv partner domestic watch all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+			  <div class="tile new all">
+				  <p class="filterDiv partner domestic watch all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+			  <div class="tile recent all">
+				   <p class="filterDiv partner domestic read all"><a href="#"><img src="#"></a></p>
+			  </div>
+
+		</div>
+
+	</div>		
+	
     
     
    <!-- <section class="wrapper">
