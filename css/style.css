@@ -1,21 +1,29 @@
+@font-face {
+  font-family: head-font;
+  src: url(../fonts/Grundfos-TheSans-V2-OT/GrundfosTheSansV2OT-5R.otf); }
 body {
   background-color: #f5f5f5; }
 
-#header {
-  width: 100%; }
+h1 {
+  font-family: head-font;
+  text-align: center;
+  padding-top: 30px; }
 
 h2 {
-  font-family: "Lucida Grande";
+  font-family: head-font;
   font-size: 20px; }
 
 h3 {
-  font-family: "Lucida Grande";
+  font-family: head-font;
   font-size: 20px;
   font-weight: 600; }
 
 p {
-  font-family: "Lucida Grande";
+  font-family: head-font;
   font-size: 12px; }
+
+#header {
+  width: 100%; }
 
 .tagline {
   width: 55%;
@@ -46,21 +54,22 @@ p {
   .profil__button {
     width: 135px;
     background-color: #6eb556;
+    font-size: 15px;
     color: white;
-    padding: 11px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 11px;
+    padding: 9px;
+    font-family: head-font;
     cursor: pointer;
-    margin-left: 15%; }
+    letter-spacing: 1px;
+    margin-left: 10%; }
   .profil__button:hover {
     background-color: #4aa22c; }
 
-.top {
-  content: "";
-  display: table;
-  clear: both; }
+.topics {
+  width: 96%;
+  height: 250px;
+  background-color: #e4e4e4;
+  margin-left: 30px;
+  margin-top: 350px; }
 
 #hi {
   max-width: 790px;
@@ -168,9 +177,12 @@ h1 {
 
 /* Top topics filter  ---  */
 .topic-filter {
-  margin-top: 150px;
+  margin-top: 100px;
   float: left;
   width: 100%; }
+
+.timeframe {
+  margin: 20px; }
 
 #topics {
   width: 100%;
@@ -195,25 +207,29 @@ h1 {
 .recent {
   background: #ddd; }
 
-p {
+.btn {
   padding: 10px;
-  border-bottom: 1px #ccc solid;
+  background-color: #999;
   text-decoration: none;
-  font-family: Arial;
+  font-family: head-font;
   text-transform: uppercase;
   font-size: 12px;
-  color: #333;
+  color: white;
   display: block;
   float: left; }
 
-p:hover {
+btn:hover {
   cursor: pointer;
   background: #333;
-  color: #eee; }
+  color: white; }
 
 /* Element filtering  ---- w3schools   */
 .container {
-  overflow: hidden; }
+  overflow: hidden;
+  margin: 20px; }
+
+.timeframe .underfilter {
+  display: block; }
 
 .filterDiv {
   float: left;
@@ -232,16 +248,20 @@ p:hover {
 
 /* Dropdown Button   ---- w3schools   */
 .dropbtn {
-  background-color: #4CAF50;
+  width: 135px;
+  background-color: #999;
   color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer; }
+  padding: 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  cursor: pointer;
+  margin-left: 15%; }
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #3e8e41; }
+  background-color: #727272; }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
