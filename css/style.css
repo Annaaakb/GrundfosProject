@@ -191,7 +191,6 @@ h1 {
 
 p {
   padding: 10px;
-  border-bottom: 1px #ccc solid;
   text-decoration: none;
   font-family: Arial;
   text-transform: uppercase;
@@ -207,7 +206,11 @@ p:hover {
 
 /* Element filtering  ---- w3schools   */
 .container {
-  overflow: hidden; }
+  overflow: hidden;
+  margin: 20px; }
+
+.timeframe .underfilter {
+  display: block; }
 
 .filterDiv {
   float: left;
@@ -226,12 +229,16 @@ p:hover {
 
 /* Dropdown Button   ---- w3schools   */
 .dropbtn {
-  background-color: #4CAF50;
+  width: 135px;
+  background-color: #6eb556;
   color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer; }
+  padding: 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  cursor: pointer;
+  margin-left: 15%; }
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
