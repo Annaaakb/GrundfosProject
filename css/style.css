@@ -1,287 +1,56 @@
-@font-face {
-  font-family: head-font;
-  src: url(../fonts/Grundfos-TheSans-V2-OT/GrundfosTheSansV2OT-5R.otf); }
-body {
-  background-color: #f5f5f5; }
+/*
+Error: Invalid CSS after "": expected selector, was "<<<<<<< HEAD"
+        on line 112 of /Users/annabrockdorff/Documents/GitHub/GrundfosProject/sass/style.scss
 
-h1 {
-  font-family: head-font;
-  text-align: center;
-  padding-top: 30px; }
+107:     margin-top:350px;
+108: }
+109: 
+110: 
+111: 
+112: <<<<<<< HEAD
+113: 
+114: =======
+115: >>>>>>> 3616e3c3b5585b8200960b43de5041a1cd20ad2f
+116: // SLIDER JUMP IN START//
+117: 
 
-h2 {
-  font-family: head-font;
-  font-size: 20px; }
-
-h3 {
-  font-family: head-font;
-  font-size: 20px;
-  font-weight: 600; }
-
-p {
-  font-family: head-font;
-  font-size: 12px; }
-
-#header {
-  width: 100%; }
-
-.tagline {
-  width: 55%;
-  margin: 30px;
-  float: left; }
-  .tagline__img {
-    width: 100%; }
-
-.profil {
-  float: right;
-  background-color: #e4e4e4;
-  width: 40%;
-  height: 551px; }
-  .profil__navn {
-    margin-top: 30px;
-    margin-left: 30px; }
-  .profil__titel {
-    margin-top: 3px;
-    margin-left: 31px;
-    font-size: 14px;
-    font-style: italic; }
-  .profil__achievements {
-    margin-top: 30px;
-    margin-left: 30px; }
-  .profil__point {
-    margin-top: 30px;
-    margin-left: 30px; }
-  .profil__button {
-    width: 135px;
-    background-color: #6eb556;
-    font-size: 14px;
-    color: white;
-    padding: 9px;
-    font-family: head-font;
-    cursor: pointer;
-    letter-spacing: 1px;
-    margin-left: 10%; }
-  .profil__button:hover {
-    background-color: #4aa22c; }
-
-.topics {
-  width: 96%;
-  height: 250px;
-  background-color: #e4e4e4;
-  margin-left: 30px;
-  margin-top: 350px; }
-
-#hi {
-  max-width: 790px;
-  float: left;
-  margin-left: 30px; }
-
-.slider_header {
-  background: #11497b;
-  color: white; }
-
-.slider_header h1 {
-  padding: 10px;
-  text-align: left;
-  margin-left: 15px; }
-
-.slide_control {
-  height: 171px;
-  width: 10px;
-  vertical-align: top;
-  display: inline-block;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 40px;
-  padding-top: 132px; }
-
-.slide_control.l {
-  margin-right: 25px;
-  margin-left: 15px; }
-
-.slide_control.r {
-  margin-right: 15px;
-  margin-left: -15px; }
-
-.slide_control p {
-  font-size: 12px;
-  color: blue; }
-
-.slider_boxes {
-  margin-top: 5px;
-  background: #e4e4e4; }
-
-.slider_main {
-  padding-left: 0;
-  padding-left: 7px; }
-
-.slider_boxes ul {
-  display: inline-block; }
-
-.slider_boxes ul li {
-  display: inline-block;
-  width: 311px;
-  height: 300px;
-  margin-right: 40px;
-  vertical-align: bottom;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-
-.box_img {
-  position: absolute; }
-
-.XXX {
-  display: none !important; }
-
-.slider_box_text {
-  padding: 27px;
-  position: relative;
-  text-align: center; }
-
-.slider_box_text h3 {
-  font-size: 21px;
-  color: rgba(0, 0, 0, 0.87);
-  font-family: head-font;
-  margin-bottom: 12px;
-  position: relative;
-  color: white; }
-
-.slider_box_text p {
-  font-size: 16px;
-  line-height: 25px;
-  color: rgba(0, 0, 0, 0.54);
-  font-family: head-font;
-  position: relative;
-  margin-bottom: 25px;
-  color: white; }
-
-.slider_box_text a {
-  border: 2px solid #f49500;
-  padding: 5px 20%;
-  color: rgba(0, 0, 0, 0.87);
-  text-decoration: none;
-  font-family: head-font;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 12px;
-  color: white;
-  margin-top: 50%; }
-
-.jumpIn {
-  margin-top: 80%; }
-
-/* Top topics filter  ---  */
-.topic-filter {
-  margin-top: 100px;
-  float: left;
-  width: 100%; }
-
-.timeframe {
-  margin: 20px; }
-
-#topics {
-  width: 100%;
-  margin: 20px 0px; }
-
-.tile {
-  float: left;
-  min-height: 100px;
-  max-height: 150px;
-  width: 20%;
-  border: 1px #fff solid; }
-
-.tile:hover {
-  opacity: 0.5; }
-
-.new {
-  background: #00ffb2; }
-
-.recom {
-  background: #ffffb2; }
-
-.recent {
-  background: #ddd; }
-
-.btn {
-  padding: 9px;
-  width: 135px;
-  background-color: #999;
-  text-decoration: none;
-  font-family: head-font;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 14px;
-  color: white;
-  display: block;
-  float: left;
-  margin: 5px; }
-
-.btn:hover {
-  cursor: pointer;
-  background: #727272;
-  color: white; }
-
-/* Element filtering  ---- w3schools   */
-.container {
-  overflow: hidden; }
-
-.filterDiv {
-  float: left;
-  background-color: #999;
-  color: #ffffff;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
-  margin: 2px;
-  display: none;
-  /* Hidden by default */ }
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block; }
-
-/* Dropdown Button   ---- w3schools   */
-.dropbtn {
-  padding: 9px;
-  width: 135px;
-  background-color: #999;
-  text-decoration: none;
-  font-family: head-font;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 14px;
-  color: white;
-  display: block;
-  float: left;
-  margin: 5px; }
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #727272; }
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block; }
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #999;
-  min-width: 230px;
-  z-index: 1; }
-
-/* Change color of dropdown links on hover */
-.dropdown-content .btn:hover {
-  background-color: #727272; }
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
-  display: block; }
-
-/*   filtering topics style end   */
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+/Users/annabrockdorff/Documents/GitHub/GrundfosProject/sass/style.scss:112
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1188:in `expr!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/static_parser.rb:20:in `parse_selector'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"\": expected selector, was \"<<<<<<< HEAD\"\A         on line 112 of /Users/annabrockdorff/Documents/GitHub/GrundfosProject/sass/style.scss\A \A 107:     margin-top:350px;\A 108: }\A 109: \A 110: \A 111: \A 112: <<<<<<< HEAD\A 113: \A 114: =======\A 115: >>>>>>> 3616e3c3b5585b8200960b43de5041a1cd20ad2f\A 116: // SLIDER JUMP IN START//\A 117: "; }
