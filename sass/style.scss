@@ -84,6 +84,7 @@ p {
     
 }
 
+<<<<<<< HEAD
 .topics{
    width: 96%;
     height: 250px;
@@ -91,6 +92,15 @@ p {
     margin-left: 30px;
     margin-top:350px;
 }
+=======
+.top {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+>>>>>>> 8571d456f77e98453657ae817705f3cdee6e1f42
 
 // SLIDER JUMP IN START//
 
@@ -196,6 +206,18 @@ p {
 
 /* Top topics filter  ---  */
 
+.topic-filter {
+	margin-top: 100px;
+	float: left;
+	width: 100%;
+}
+
+.timeframe {
+	margin: 20px;
+}
+
+
+
 #topics { 
 	width:100%; 
 	margin:20px 0px; 
@@ -227,7 +249,6 @@ p {
 
 p{ 
 	padding:10px; 
-	border-bottom: 1px #ccc solid; 
 	text-decoration: none; 
 	font-family: Arial; 
 	text-transform:uppercase; 
@@ -250,6 +271,13 @@ p:hover {
 
 .container {
     overflow: hidden;
+	margin: 20px;
+}
+
+
+
+.timeframe .underfilter {
+	display: block;
 }
 
 .filterDiv {
@@ -271,12 +299,17 @@ p:hover {
 
 /* Dropdown Button   ---- w3schools   */
 .dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+   width: 135px;
+        background-color: #6eb556;
+        //border: none;
+        color: white;
+        padding: 11px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 11px;
+        cursor: pointer; //musen ændres til en lille hånd
+        margin-left: 15%;
 }
 
 /* Dropdown button on hover & focus */

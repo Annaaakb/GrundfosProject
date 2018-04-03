@@ -98,7 +98,7 @@
 <div class="topic-filter">
 
 		<div class="container">
-			<p href="" data-rel="all">All</p>
+			<p data-rel="all">All</p>
 			<p data-rel="new">New</p>
 			<p data-rel="recom">Recommended</p>
 			<p data-rel="recent">Recent</p>
@@ -107,7 +107,7 @@
 
 	<div class="underfilter">
 				<div class="dropdown myBtnContainer">
-				  <button onclick="myFunction()" class="dropbtn">Role</button>
+				  <button onclick="myFunction()" class="dropbtn">ROLE</button>
 					  <div id="myDropdown" class="dropdown-content">
 							<p class="btn" onclick="filterSelection('partner')">Channel partner</p>
 							<p class="btn" onclick="filterSelection('heating')">Heating engineer/ Domestic installer</p>
@@ -117,7 +117,7 @@
 				</div>
 
 				<div class="dropdown myBtnContainer">
-				  <button onclick="myFunction()" class="dropbtn">Area</button>
+				  <button onclick="myFunction()" class="dropbtn">AREA</button>
 					  <div id="myDropdown" class="dropdown-content">
 							<p class="btn" onclick="filterSelection('domestic')">Domestic</p>
 							<p class="btn" onclick="filterSelection('commercial')">Commercial</p>
@@ -127,7 +127,7 @@
 				</div>
 
 				<div class="dropdown myBtnContainer">
-				  <button onclick="myFunction()" class="dropbtn">Method</button>
+				  <button onclick="myFunction()" class="dropbtn">METHOD</button>
 					  <div id="myDropdown" class="dropdown-content">
 							<p class="btn" onclick="filterSelection('read')">Read</p>
 							<p class="btn" onclick="filterSelection('watch')">Watch</p>
@@ -135,8 +135,11 @@
 							<p class="btn" onclick="filterSelection('all')">All</p>
 					  </div>
 				</div>
-
-				<input type="range" min="5" max="30" value="10 min" class="slider" id="myRange">
+		<div class="timeframe">
+					<input type="range" min="5" max="30" value="10" class="slider" id="myRange">
+			<p>Timeframe: <span id="demo"></span></p>
+		</div>
+</div>
 	</div>
 
 
