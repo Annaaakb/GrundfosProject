@@ -234,14 +234,16 @@ h1 {
 }
 
 p{ 
-	padding:10px; 
+	padding:10px;
+	background-color: #999;
 	text-decoration: none; 
 	font-family: Arial; 
 	text-transform:uppercase; 
 	font-size: 12px; 
-	color: #333; 
+	color: white; 
 	display:block; 
 	float:left;
+	
 }
 
 
@@ -286,7 +288,7 @@ p:hover {
 /* Dropdown Button   ---- w3schools   */
 .dropbtn {
    width: 135px;
-        background-color: #6eb556;
+        background-color: #999;
         //border: none;
         color: white;
         padding: 11px;
@@ -300,7 +302,7 @@ p:hover {
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
+    background-color: #727272;
 }
 
 
