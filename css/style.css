@@ -1,21 +1,29 @@
+@font-face {
+  font-family: head-font;
+  src: url(../fonts/Grundfos-TheSans-V2-OT/GrundfosTheSansV2OT-5R.otf); }
 body {
   background-color: #f5f5f5; }
 
-#header {
-  width: 100%; }
+h1 {
+  font-family: head-font;
+  text-align: center;
+  padding-top: 30px; }
 
 h2 {
-  font-family: "Lucida Grande";
+  font-family: head-font;
   font-size: 20px; }
 
 h3 {
-  font-family: "Lucida Grande";
+  font-family: head-font;
   font-size: 20px;
   font-weight: 600; }
 
 p {
-  font-family: "Lucida Grande";
+  font-family: head-font;
   font-size: 12px; }
+
+#header {
+  width: 100%; }
 
 .tagline {
   width: 55%;
@@ -46,21 +54,15 @@ p {
   .profil__button {
     width: 135px;
     background-color: #6eb556;
+    font-size: 15px;
     color: white;
-    padding: 11px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 11px;
+    padding: 9px;
+    font-family: head-font;
     cursor: pointer;
-    margin-left: 15%; }
+    letter-spacing: 1px;
+    margin-left: 10%; }
   .profil__button:hover {
     background-color: #4aa22c; }
-
-.top {
-  content: "";
-  display: table;
-  clear: both; }
 
 .topics {
   width: 96%;
@@ -73,11 +75,6 @@ p {
   max-width: 790px;
   float: left;
   margin-left: 30px; }
-
-h1 {
-  font-family: 'Lucida Grande';
-  text-align: center;
-  padding-top: 30px; }
 
 .slide_control {
   height: 171px;
