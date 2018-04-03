@@ -84,7 +84,7 @@ p {
     
 }
 
-<<<<<<< HEAD
+
 .topics{
    width: 96%;
     height: 250px;
@@ -92,15 +92,9 @@ p {
     margin-left: 30px;
     margin-top:350px;
 }
-=======
-.top {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 
->>>>>>> 8571d456f77e98453657ae817705f3cdee6e1f42
+
 
 // SLIDER JUMP IN START//
 
@@ -247,11 +241,11 @@ p {
 	background: #ddd; 
 }
 
-p{ 
+.btn { 
 	padding:10px;
 	background-color: #999;
 	text-decoration: none; 
-	font-family: Arial; 
+	font-family: head-font; 
 	text-transform:uppercase; 
 	font-size: 12px; 
 	color: white; 
@@ -261,10 +255,10 @@ p{
 }
 
 
-p:hover { 
+btn:hover { 
 	cursor:pointer; 
 	background: #333; 
-	color:#eee; 
+	color: white; 
 }
 
 
