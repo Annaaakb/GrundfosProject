@@ -64,12 +64,12 @@ function myFunction() {
 function filterFunction() {
   var filter, p, ul, li, a, i;
   div = document.getElementById("myDropdown");
-  p = div.getElementsByTagName("p");
+  btn = div.getElementsByClassName("btn");
   for (i = 0; i < a.length; i++) {
     if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
-      p[i].style.display = "";
+      btn[i].style.display = "";
     } else {
-      p[i].style.display = "none";
+      btn[i].style.display = "none";
     }
   }
 }
