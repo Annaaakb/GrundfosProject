@@ -31,7 +31,7 @@ function carousel() {
 
 $(function() {
 		var selectedClass = "";
-		$("p").click(function() {
+		$("a").click(function() {
 		selectedClass = $(this).attr("data-rel");
     $("#topics").fadeTo(100, 0.1);
 		$("#topics div").not("." + selectedClass).fadeOut();
@@ -43,13 +43,6 @@ $(function() {
 	});
 });
 
-
-
-
-
-
-
-/* filtrering  */
 
 
 
