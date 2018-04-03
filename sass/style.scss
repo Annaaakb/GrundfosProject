@@ -68,7 +68,7 @@ p {
      &__button {
         width: 135px;
         background-color: #6eb556;
-        font-size: 15px; 
+        font-size: 14px; 
         color: white;
         padding: 9px; 
         font-family: head-font;
@@ -95,6 +95,11 @@ p {
 
 
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> f5521aa66f1d600f9933ada796377b8809cb6fc5
 
 // SLIDER JUMP IN START//
 
@@ -104,26 +109,39 @@ p {
     margin-left: 30px;
 }
 
+
+.slider_header{
+    background: #11497b;
+    color: white;
+}
+
+.slider_header h1{
+    padding: 10px;
+    text-align: left;
+    margin-left: 15px;
+}
+
 .slide_control {
   height: 171px;
-  width:25px;
+  width:10px;
   vertical-align:top;
   display:inline-block;
-  background-color:#8cbbdd;
   cursor: pointer;
   -webkit-user-select: none;        
   -moz-user-select: none;
   -ms-user-select: none;
   color: rgba(0, 0, 0, 0.8);
-  font-size: 21px;
+  font-size: 30px;
   padding-top: 132px;
-  padding-left: 15px;
+  //padding-left: 15px;
 }
 .slide_control.l{
-  margin-right:28px;
+  margin-right:25px;
+    margin-left: 15px;
 }
 .slide_control.r{
-  margin-left:8px;
+  margin-right: 15px;
+    margin-left: -15px;
 }
 .slide_control p {
   font-size:12px;
@@ -131,10 +149,12 @@ p {
 }
 .slider_boxes {
   margin-top: 5px;
+    background: #e4e4e4;
 }
 
 .slider_main {
   padding-left:0;
+    padding-left: 7px;
 }
 .slider_boxes ul {
   display:inline-block;
@@ -144,7 +164,7 @@ p {
   width: 311px;
 	height: 300px;
 	//background-color: #34648f;//
-	margin-right: 20px;
+	margin-right: 40px;
 	vertical-align: bottom;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
@@ -163,7 +183,7 @@ p {
 .slider_box_text h3 {
 	font-size: 21px;
 	color: rgba(0,0,0,.87);
-	font-family: 'Lucida Grande';
+	font-family: head-font ;
 	margin-bottom:12px;
 	position: relative;
     color: white;
@@ -172,7 +192,7 @@ p {
 	font-size: 16px;
 	line-height: 25px;
 	color: rgba(0,0,0,.54);
-	font-family: 'Lucida Grande';
+	font-family: head-font;
 	position: relative;
   margin-bottom: 25px;
     color: white;
@@ -182,7 +202,7 @@ p {
   padding: 5px 20%;
   color: rgba(0,0,0,.87);
   text-decoration: none;
-  font-family:'Lucida Grande';
+  font-family:head-font;
   text-transform:uppercase;
   letter-spacing:3px;
   font-size:12px;
