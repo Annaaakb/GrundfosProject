@@ -74,14 +74,28 @@ p {
         font-family: head-font;
         cursor: pointer; //musen ændres til en lille hånd
         letter-spacing: 1px; 
-         
         //border: none;
         margin-left: 10%;
+         
+        position: relative; // arrow
     }
     &__button:hover {
         background-color: #4aa22c;
     }
+}
+
+.donate:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: "";
+    position: absolute;
+    //border-radius: 5px; 
     
+    border-left-color: #6eb556;
+    border-width: 18px;
+    margin-top: -18px;
+        //border-radius: 5px;
 }
 
 
@@ -94,12 +108,6 @@ p {
 }
 
 
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> f5521aa66f1d600f9933ada796377b8809cb6fc5
 
 // SLIDER JUMP IN START//
 
