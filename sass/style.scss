@@ -68,7 +68,7 @@ p {
      &__button {
         width: 135px;
         background-color: #6eb556;
-        font-size: 15px; 
+        font-size: 14px; 
         color: white;
         padding: 9px; 
         font-family: head-font;
@@ -95,6 +95,11 @@ p {
 
 
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> f5521aa66f1d600f9933ada796377b8809cb6fc5
 
 // SLIDER JUMP IN START//
 
@@ -257,22 +262,25 @@ p {
 }
 
 .btn { 
-	padding:10px;
+	padding: 9px;
+	width: 135px;
 	background-color: #999;
 	text-decoration: none; 
 	font-family: head-font; 
-	text-transform:uppercase; 
-	font-size: 12px; 
+	text-transform:uppercase;
+	letter-spacing: 1px;
+	font-size: 14px; 
 	color: white; 
 	display:block; 
 	float:left;
+	margin: 5px;
 	
 }
 
 
-btn:hover { 
+.btn:hover { 
 	cursor:pointer; 
-	background: #333; 
+	background: #727272; 
 	color: white; 
 }
 
@@ -282,18 +290,13 @@ btn:hover {
 
 .container {
     overflow: hidden;
-	margin: 20px;
+
 }
 
-
-
-.timeframe .underfilter {
-	display: block;
-}
 
 .filterDiv {
     float: left;
-    background-color: #2196F3;
+    background-color: #999;
     color: #ffffff;
     width: 100px;
     line-height: 100px;
@@ -310,17 +313,18 @@ btn:hover {
 
 /* Dropdown Button   ---- w3schools   */
 .dropbtn {
-   width: 135px;
-        background-color: #999;
-        //border: none;
-        color: white;
-        padding: 11px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 11px;
-        cursor: pointer; //musen ændres til en lille hånd
-        margin-left: 15%;
+	padding: 9px;
+	width: 135px;
+	background-color: #999;
+	text-decoration: none; 
+	font-family: head-font; 
+	text-transform:uppercase;
+	letter-spacing: 1px;
+	font-size: 14px; 
+	color: white; 
+	display:block; 
+	float:left;
+	margin: 5px;
 }
 
 /* Dropdown button on hover & focus */
@@ -340,26 +344,20 @@ btn:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f6f6f6;
+    background-color: #999;
     min-width: 230px;
-    border: 1px solid #ddd;
     z-index: 1;
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-	background-color: #f1f1f1}
+.dropdown-content .btn:hover {
+	background-color: #727272;
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
-	display:block;}
+	display:block;
+}
 
 /*   filtering topics style end   */
