@@ -163,6 +163,9 @@ h1 {
   float: left;
   width: 100%; }
 
+.timeframe {
+  margin: 20px; }
+
 #topics {
   width: 100%;
   margin: 20px 0px; }
