@@ -7,15 +7,8 @@ body {
     background-color: #f5f5f5;
 }
 
-h1 {
-  font-family: head-font;
-  text-align:center;
-  padding-top:30px;
-}
-
-h2 {
+h1, h2 {
    font-family: head-font;
-   font-size: 20px; 
 }
 
 h3 {
@@ -67,25 +60,31 @@ p {
         margin-top: 30px;
         margin-left: 30px;
         color: white;
+        font-size: 34px;
     }
     &__img {
         border-radius: 50%;
-        width: 30%;
+        width: 33%;
         float: right;
+        margin-right: 5%;
     }
      &__title{
         margin-top: 3px;
         margin-left: 31px;
-        font-size: 14px;
-         color: white;
-        //font-style: italic;
+        font-size: 16px;
+        color: white;
     }
      &__achievements{
-        margin-top: 30px;
-        margin-left: 30px;
+        margin: 30px;
+        font-size: 30px;
     }
     &__row {
-        margin: 20px;
+        margin-top: 15px;
+    }
+    &__badge{
+        width: 15%;
+	    margin-right: 25px;
+        margin-left: 25px;
     }
     &__seeall {
         width: 100px;
@@ -96,17 +95,26 @@ p {
         letter-spacing: 1px;
         color: white;
         background-color: #11497b;
+        
+        margin: 3%;
+        margin-left: 40%;
     }
-    &__badge{
-        width: 17%;
-	    margin: 12px;
+    &__arrow {
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        margin-left: 5%;
     }
      &__point{
-        margin-top: 30px;
-        margin-left: 30px;
+        margin: 30px;
+        font-size: 30px;
     }
     &__amount {
-       float: right;
+        font-family: head-font;
+        font-size: 20px;  
     }
      &__button {
         margin-top: 7%;
@@ -118,7 +126,7 @@ p {
         cursor: pointer; //musen ændres til en lille hånd
         letter-spacing: 1px; 
         //border: none;
-        margin-left: 15%;
+        margin-left: 5%;
          
         position: relative; // arrow
         background-color: var(--buttonColor);
@@ -346,8 +354,7 @@ p {
 	border-bottom: 4px solid #127bbd;
 }
 
-<<<<<<< HEAD
-=======
+
 .btn.filter:active { 
 	cursor:pointer;  
 	color: white;
@@ -364,7 +371,7 @@ p {
 .row {
 	margin: 20px;
 }
->>>>>>> 849ceef603c6b4b76ec388c6ca2332914fac1921
+
 
 /* Element filtering  ---- w3schools   */
 
