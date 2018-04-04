@@ -29,6 +29,11 @@ function carousel() {
 
 
 
+
+
+/* ---  filter overfaner ---- */
+
+
 $(function() {
 		var selectedClass = "";
 		$("a").click(function() {
@@ -45,7 +50,7 @@ $(function() {
 
 
 
-
+/* ---  filter dropdowns ---- */
 
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
