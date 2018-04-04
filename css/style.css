@@ -19,6 +19,11 @@ p {
 #header {
   width: 100%; }
 
+.hej {
+  width: 90%;
+  justify-content: center;
+  margin: auto; }
+
 .tagline {
   width: 55%;
   margin: 30px;
@@ -35,7 +40,7 @@ p {
   background-color: #e4e4e4;
   margin-top: -5px;
   width: 40%;
-  height: 688px; }
+  height: 662px; }
   .profile__blue {
     height: auto;
     background-color: #11497b;
@@ -58,7 +63,8 @@ p {
     color: white; }
   .profile__achievements {
     margin: 30px;
-    font-size: 30px; }
+    font-size: 30px;
+    color: #333333; }
   .profile__row {
     margin-top: 15px; }
   .profile__badge {
@@ -88,7 +94,8 @@ p {
     margin-left: 5%; }
   .profile__points {
     margin: 30px;
-    font-size: 30px; }
+    font-size: 30px;
+    color: #333333; }
   .profile__amount {
     width: 25%;
     float: right; }
@@ -101,7 +108,7 @@ p {
     font-family: head-font;
     cursor: pointer;
     letter-spacing: 1px;
-    margin-left: 10px;
+    margin-left: 20px;
     position: relative;
     background-color: var(--buttonGreen); }
   .profile__buttonDonate:hover {
@@ -131,9 +138,23 @@ p {
   .profile__buttonPoint:hover {
     --buttonBlue: #0068b4;
     background-color: var(--buttonBlue); }
+  .profile__tal {
+    float: right;
+    font-size: 35px;
+    color: #0068b4;
+    margin-right: 15%;
+    margin-top: 8%; }
+  .profile__brodtext {
+    float: right;
+    margin-right: 14%;
+    display: inline-block; }
+
+.donate {
+  color: #6eb556; }
 
 .try {
-  display: inline-block; }
+  display: inline-block;
+  margin-left: 30%; }
 
 .point {
   display: inline-block; }
@@ -166,12 +187,12 @@ p {
   padding-top: 132px; }
 
 .slide_control.l {
-  margin-right: 25px;
-  margin-left: 15px; }
+  margin-right: 20px;
+  margin-left: 5px; }
 
 .slide_control.r {
-  margin-right: 15px;
-  margin-left: -15px; }
+  margin-right: 5px;
+  margin-left: -10px; }
 
 .slide_control p {
   font-size: 12px;
@@ -179,25 +200,28 @@ p {
 
 .slider_boxes {
   margin-top: 5px;
-  background: #e4e4e4; }
+  background: #e4e4e4;
+  width: 704px; }
 
 .slider_main {
   padding-left: 0;
-  padding-left: 7px; }
+  padding-left: 7px;
+  margin-top: 7px; }
 
 .slider_boxes ul {
   display: inline-block; }
 
 .slider_boxes ul li {
   display: inline-block;
-  width: 311px;
-  height: 300px;
+  width: 280px;
+  height: 270px;
   margin-right: 40px;
   vertical-align: bottom;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
 .box_img {
-  position: absolute; }
+  position: absolute;
+  width: 290px; }
 
 .XXX {
   display: none !important; }
@@ -240,9 +264,9 @@ p {
   margin-top: 80%; }
 
 .topic-filter {
-  margin: 100px 30px;
+  margin: 40px 30px;
   float: left;
-  width: 96%;
+  width: 98%;
   background-color: #e4e4e4; }
 
 .timeframe {
@@ -260,7 +284,7 @@ p {
 
 .tile {
   float: left;
-  width: 23%;
+  width: 22%;
   margin: 20px 23px 0px 0px; }
 
 .tile:hover {

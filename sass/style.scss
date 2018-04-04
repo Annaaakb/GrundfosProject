@@ -28,6 +28,11 @@ p {
     width: 100%;
 }
 
+.hej{
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+}
 // SLIDE BANNERS
 
 .tagline{
@@ -50,7 +55,7 @@ p {
     background-color: #e4e4e4;
     margin-top: -5px;
     width: 40%;
-    height: 688px;
+    height: 662px;
     &__blue {
         height: auto;
         background-color: #11497b;
@@ -78,6 +83,7 @@ p {
      &__achievements{
         margin: 30px;
         font-size: 30px;
+        color: #333333;
     }
     &__row {
         margin-top: 15px;
@@ -114,6 +120,7 @@ p {
      &__points{
         margin: 30px;
         font-size: 30px; 
+         color: #333333;
     }
     &__amount {
         width: 25%;
@@ -129,7 +136,7 @@ p {
         cursor: pointer; //musen ændres til en lille hånd
         letter-spacing: 1px; 
         //border: none;
-        margin-left: 10px;
+        margin-left: 20px;
         position: relative; // arrow
         background-color: var(--buttonGreen);
     }
@@ -164,10 +171,29 @@ p {
         --buttonBlue: #0068b4;
         background-color: var(--buttonBlue);
     }
+    &__tal{
+        float: right;
+        font-size: 35px;
+        color: #0068b4;
+        margin-right: 15%;
+        margin-top: 8%;
+    }
+    &__brodtext{
+        float: right;
+        margin-right: 14%;
+        display: inline-block;
+        
+        
+    }
+}
+
+.donate{
+    color: #6eb556;
 }
 
 .try {
     display: inline-block;
+    margin-left: 30%;
 }
 
 .point {
@@ -209,13 +235,13 @@ p {
 }
 
 .slide_control.l{
-  margin-right:25px;
-    margin-left: 15px;
+  margin-right:20px;
+    margin-left: 5px;
 }
 
 .slide_control.r{
-  margin-right: 15px;
-    margin-left: -15px;
+  margin-right: 5px;
+    margin-left: -10px;
 }
 
 .slide_control p {
@@ -226,6 +252,7 @@ p {
 .slider_boxes {
   margin-top: 5px;
     background: #e4e4e4;
+    width: 704px;
     
 }
 
@@ -233,6 +260,7 @@ p {
 .slider_main {
   padding-left:0;
     padding-left: 7px;
+    margin-top: 7px;
 }
 
 .slider_boxes ul {
@@ -241,8 +269,8 @@ p {
 
 .slider_boxes ul li {
   display: inline-block;
-  width: 311px;
-	height: 300px;
+  width: 280px;
+	height: 270px;
 	margin-right: 40px;
 	vertical-align: bottom;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -250,6 +278,7 @@ p {
 
 .box_img{
     position: absolute;
+    width: 290px;
  }
 
 .XXX {
@@ -305,9 +334,9 @@ p {
 // TOP TOPICS FILTER
 
 .topic-filter {
-	margin: 100px 30px;
+	margin: 40px 30px;
 	float: left;
-	width: 96%;
+	width: 98%;
 	background-color: #e4e4e4;
 }
 
@@ -336,7 +365,7 @@ p {
 
 .tile { 
 	float:left; 
-	width:23%; 
+	width:22%; 
 	margin: 20px 23px 0px 0px;
 }
 
