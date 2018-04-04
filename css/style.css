@@ -226,6 +226,9 @@ p {
 .timeframe {
   margin: 20px; }
 
+  display: inline-block; }
+
+
 #topics {
   width: 100%;
   margin: 20px 0px; }
