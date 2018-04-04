@@ -47,12 +47,21 @@ p {
 }
 
 // PROFILE 
-
+:root {
+    --buttonColor: #6eb556;
+}
 .profile{
     float: right;
     background-color: #e4e4e4;
+    margin-top: 2%;
     width: 40%;
-    height: 551px;
+    height: 650px;
+    &__blue {
+        height: auto;
+        background-color: #11497b;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
     &__name{
         margin-top: 30px;
         margin-left: 30px;
@@ -78,7 +87,6 @@ p {
     }
      &__button {
         width: 135px;
-        background-color: #6eb556;
         font-size: 14px; 
         color: white;
         padding: 9px; 
@@ -89,9 +97,11 @@ p {
         margin-left: 10%;
          
         position: relative; // arrow
+        background-color: var(--buttonColor);
     }
     &__button:hover {
-        background-color: #4aa22c;
+        --buttonColor: #4aa22c;
+        background-color: var(--buttonColor);
     }
 }
 
@@ -107,6 +117,7 @@ p {
     border-width: 18px;
     margin-top: -18px;
         //border-radius: 5px;
+    border-left-color: var(--buttonColor);
 }
 
 .topics{
