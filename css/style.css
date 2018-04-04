@@ -226,8 +226,11 @@ p {
 .timeframe {
   margin: 20px; }
 
+.radiobtn {
   display: inline-block; }
 
+.radio {
+  margin: 20px; }
 
 #topics {
   width: 100%;
@@ -344,6 +347,7 @@ p {
   position: absolute;
   background-color: #999;
   min-width: 230px;
+  margin-top: 50px;
   z-index: 1; }
 
 /* Change color of dropdown links on hover */
