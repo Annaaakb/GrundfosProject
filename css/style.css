@@ -32,26 +32,30 @@ p {
   .tagline__img {
     width: 100%; }
 
-.profil {
+.profile {
   float: right;
   background-color: #e4e4e4;
   width: 40%;
   height: 551px; }
-  .profil__navn {
+  .profile__name {
     margin-top: 30px;
     margin-left: 30px; }
-  .profil__titel {
+  .profile__img {
+    border-radius: 50%;
+    width: 30%;
+    float: right; }
+  .profile__title {
     margin-top: 3px;
     margin-left: 31px;
     font-size: 14px;
     font-style: italic; }
-  .profil__achievements {
+  .profile__achievements {
     margin-top: 30px;
     margin-left: 30px; }
-  .profil__point {
+  .profile__point {
     margin-top: 30px;
     margin-left: 30px; }
-  .profil__button {
+  .profile__button {
     width: 135px;
     background-color: #6eb556;
     font-size: 14px;
@@ -62,7 +66,7 @@ p {
     letter-spacing: 1px;
     margin-left: 10%;
     position: relative; }
-  .profil__button:hover {
+  .profile__button:hover {
     background-color: #4aa22c; }
 
 .donate:after {

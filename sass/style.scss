@@ -48,16 +48,21 @@ p {
 
 // PROFILE 
 
-.profil{
+.profile{
     float: right;
     background-color: #e4e4e4;
     width: 40%;
     height: 551px;
-    &__navn{
+    &__name{
         margin-top: 30px;
         margin-left: 30px;
     }
-     &__titel{
+    &__img {
+        border-radius: 50%;
+        width: 30%;
+        float: right;
+    }
+     &__title{
         margin-top: 3px;
         margin-left: 31px;
         font-size: 14px;
