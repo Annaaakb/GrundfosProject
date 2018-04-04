@@ -125,7 +125,7 @@ p {
     border-left-color: var(--buttonGreen); }
   .profile__buttonPoint {
     margin-top: 7%;
-    margin-right: 60px;
+    margin-right: 15px;
     width: 135px;
     font-size: 14px;
     color: white;
@@ -153,8 +153,7 @@ p {
 
 .try {
   display: inline-block;
-  margin-left: 30%;
-  margin-left: 18%; }
+  margin-left: 32%; }
 
 .point {
   display: inline-block; }
