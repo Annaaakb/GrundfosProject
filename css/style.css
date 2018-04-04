@@ -217,32 +217,31 @@ p {
   background: #ddd; }
 
 .btn {
-  padding: 10px;
+  padding: 9px;
+  width: 135px;
   background-color: #999;
   text-decoration: none;
   font-family: head-font;
   text-transform: uppercase;
-  font-size: 12px;
+  letter-spacing: 1px;
+  font-size: 14px;
   color: white;
   display: block;
-  float: left; }
+  float: left;
+  margin: 5px; }
 
-btn:hover {
+.btn:hover {
   cursor: pointer;
-  background: #333;
+  background: #727272;
   color: white; }
 
 /* Element filtering  ---- w3schools   */
 .container {
-  overflow: hidden;
-  margin: 20px; }
-
-.timeframe .underfilter {
-  display: block; }
+  overflow: hidden; }
 
 .filterDiv {
   float: left;
-  background-color: #2196F3;
+  background-color: #999;
   color: #ffffff;
   width: 100px;
   line-height: 100px;
@@ -257,16 +256,18 @@ btn:hover {
 
 /* Dropdown Button   ---- w3schools   */
 .dropbtn {
+  padding: 9px;
   width: 135px;
   background-color: #999;
-  color: white;
-  padding: 11px;
-  text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 11px;
-  cursor: pointer;
-  margin-left: 15%; }
+  font-family: head-font;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: white;
+  display: block;
+  float: left;
+  margin: 5px; }
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
@@ -281,21 +282,13 @@ btn:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f6f6f6;
+  background-color: #999;
   min-width: 230px;
-  border: 1px solid #ddd;
   z-index: 1; }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block; }
-
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #f1f1f1; }
+.dropdown-content .btn:hover {
+  background-color: #727272; }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
@@ -304,61 +297,3 @@ btn:hover {
 /*   filtering topics style end   */
 
 /*# sourceMappingURL=style.css.map */
-=======
-/*
-Error: Invalid CSS after "": expected selector, was "<<<<<<< HEAD"
-        on line 98 of /Users/annabrockdorff/Documents/GitHub/GrundfosProject/sass/style.scss
-
-93:     margin-top:350px;
-94: }
-95: 
-96: 
-97: 
-98: <<<<<<< HEAD
-99: 
-100: 
-101: =======
-102: >>>>>>> f5521aa66f1d600f9933ada796377b8809cb6fc5
-103: 
-
-Backtrace:
-/Users/annabrockdorff/Documents/GitHub/GrundfosProject/sass/style.scss:98
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1188:in `expr!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/static_parser.rb:20:in `parse_selector'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"\": expected selector, was \"<<<<<<< HEAD\"\A         on line 98 of /Users/annabrockdorff/Documents/GitHub/GrundfosProject/sass/style.scss\A \A 93:     margin-top:350px;\A 94: }\A 95: \A 96: \A 97: \A 98: <<<<<<< HEAD\A 99: \A 100: \A 101: =======\A 102: >>>>>>> f5521aa66f1d600f9933ada796377b8809cb6fc5\A 103: "; }
->>>>>>> 638ba80849586f818b9c233fb416494519a8138a
