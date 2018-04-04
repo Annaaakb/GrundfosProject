@@ -50,6 +50,7 @@ p {
 :root {
     --buttonColor: #6eb556;
 }
+
 .profile{
     float: right;
     background-color: #e4e4e4;
@@ -65,6 +66,7 @@ p {
     &__name{
         margin-top: 30px;
         margin-left: 30px;
+        color: white;
     }
     &__img {
         border-radius: 50%;
@@ -75,17 +77,39 @@ p {
         margin-top: 3px;
         margin-left: 31px;
         font-size: 14px;
-        font-style: italic;
+         color: white;
+        //font-style: italic;
     }
      &__achievements{
         margin-top: 30px;
         margin-left: 30px;
     }
+    &__row {
+        margin: 20px;
+    }
+    &__seeall {
+        width: 100px;
+        font-size: 12px;
+        padding: 6px;
+        font-family: head-font;
+        cursor: pointer;
+        letter-spacing: 1px;
+        color: white;
+        background-color: #11497b;
+    }
+    &__badge{
+        width: 17%;
+	    margin: 12px;
+    }
      &__point{
         margin-top: 30px;
         margin-left: 30px;
     }
+    &__amount {
+       float: right;
+    }
      &__button {
+        margin-top: 7%;
         width: 135px;
         font-size: 14px; 
         color: white;
@@ -94,7 +118,7 @@ p {
         cursor: pointer; //musen ændres til en lille hånd
         letter-spacing: 1px; 
         //border: none;
-        margin-left: 10%;
+        margin-left: 15%;
          
         position: relative; // arrow
         background-color: var(--buttonColor);
@@ -322,16 +346,6 @@ p {
 	border-bottom: 4px solid #127bbd;
 }
 
-/* ---- Badges styles  ----  */
-
-.badge {
-	width: 17%;
-	margin: 20px;
-}
-
-.row {
-	margin: 20px;
-}
 
 /* Element filtering  ---- w3schools   */
 
