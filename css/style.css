@@ -314,7 +314,8 @@ p {
 /* Element filtering  ---- w3schools   */
 .container {
   overflow: hidden;
-  background-color: #11497b; }
+  background-color: #11497b;
+  height: 36px; }
 
 .filterDiv {
   float: left;
@@ -372,5 +373,23 @@ p {
   display: block; }
 
 /*   filtering topics style end   */
+/* External html documents*/
+.center {
+  margin-left: 25%;
+  margin-top: 10%; }
+
+.center h1 {
+  font-size: 40px;
+  margin-bottom: 5px; }
+
+.center h2 {
+  font-size: 35px;
+  margin-bottom: 5px;
+  margin-left: 15%;
+  color: #11497b; }
+
+.center button {
+  width: 100px;
+  height: 36px; }
 
 /*# sourceMappingURL=style.css.map */
