@@ -79,13 +79,6 @@ p {
   border-width: 18px;
   margin-top: -18px; }
 
-.topics {
-  width: 96%;
-  height: 250px;
-  background-color: #e4e4e4;
-  margin-left: 30px;
-  margin-top: 350px; }
-
 #hi {
   max-width: 790px;
   float: left;
@@ -190,7 +183,8 @@ p {
 .topic-filter {
   margin: 100px 30px;
   float: left;
-  width: 100%; }
+  width: 96%;
+  background-color: #e4e4e4; }
 
 .timeframe {
   margin: 20px; }
@@ -201,23 +195,27 @@ p {
 
 .tile {
   float: left;
-  min-height: 100px;
-  max-height: 200px;
   width: 23%;
   margin: 20px 23px 0px 0px; }
 
 .tile:hover {
   opacity: 0.5; }
 
-.new {
-  background: #00ffb2; }
+/*
 
-.recom {
-  background: #ffffb2; }
+.new { 
+	background:#00ffb2;
+}
 
-.recent {
-  background: #ddd; }
+.recom { 
+	background: #ffffb2;
+}
 
+.recent { 
+	background: #ddd; 
+}
+
+*/
 .btn {
   padding: 9px;
   background-color: #999;
@@ -235,9 +233,11 @@ p {
   background: #727272;
   color: white; }
 
+.btn.filter {
+  background-color: #11497b; }
+
 .btn.filter:hover {
   cursor: pointer;
-  background: #727272;
   color: white;
   border-bottom: 4px solid #127bbd; }
 
@@ -252,16 +252,16 @@ p {
 /* Element filtering  ---- w3schools   */
 .container {
   overflow: hidden;
-  background-color: #999; }
+  background-color: #11497b; }
 
 .filterDiv {
   float: left;
-  background-color: #999;
   color: #ffffff;
   width: 100px;
   line-height: 100px;
   text-align: center;
   margin: 2px;
+  margin-left: 18px;
   display: none;
   /* Hidden by default */ }
 
