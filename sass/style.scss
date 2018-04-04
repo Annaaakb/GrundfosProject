@@ -284,6 +284,14 @@ p {
 	margin: 20px;
 }
 
+.radiobtn {
+	display: inline-block;
+}
+
+.radio {
+	margin: 20px;
+}
+
 #topics { 
 	width:100%; 
 	margin:20px 0px; 
@@ -346,8 +354,7 @@ p {
 	border-bottom: 4px solid #127bbd;
 }
 
-<<<<<<< HEAD
-=======
+
 .btn.filter:active { 
 	cursor:pointer;  
 	color: white;
@@ -364,7 +371,7 @@ p {
 .row {
 	margin: 20px;
 }
->>>>>>> 849ceef603c6b4b76ec388c6ca2332914fac1921
+
 
 /* Element filtering  ---- w3schools   */
 
