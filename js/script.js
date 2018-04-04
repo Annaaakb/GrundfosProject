@@ -60,7 +60,7 @@ function myFunction() {
 }
 
 function filterFunction() {
-  var filter, p, ul, li, a, i;
+  var filter, p, ul, li, a, i ;
   div = document.getElementById("myDropdown");
   btn = div.getElementsByClassName("btn");
   for (i = 0; i < a.length; i++) {
@@ -73,6 +73,8 @@ function filterFunction() {
 }
 
 
+
+// FILTER SELECTION
 
 
 filterSelection("all")

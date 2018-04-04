@@ -309,6 +309,8 @@ p {
 	background-color: #e4e4e4;
 }
 
+// TIMEFRAME 
+
 .timeframe {
 	margin: 20px;
 }
@@ -320,6 +322,10 @@ p {
 .radio {
 	margin: 20px;
 }
+
+
+
+// TOPIC TILES
 
 #topics { 
 	width:100%; 
@@ -396,6 +402,7 @@ p {
 .container {
     overflow: hidden;
 	background-color: #11497b;
+    height: 36px;
 
 }
 
@@ -452,6 +459,7 @@ p {
     position: absolute;
     background-color: #999;
     min-width: 230px;
+	margin-top: 50px;
     z-index: 1;
 }
 
@@ -468,3 +476,27 @@ p {
 }
 
 /*   filtering topics style end   */
+
+
+/* External html documents*/
+.center{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.center h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.center h2{
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin-left: 15%;
+    color: #11497b;
+}
+
+.center button{
+    width: 100px;
+    height: 36px;
+}
