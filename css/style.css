@@ -1,420 +1,50 @@
-@font-face {
-  font-family: head-font;
-  src: url(../fonts/Grundfos-TheSans-V2-OT/GrundfosTheSansV2OT-5R.otf); }
-body {
-  background-color: #f5f5f5; }
-
-h1, h2 {
-  font-family: head-font; }
-
-h3 {
-  font-family: head-font;
-  font-size: 20px;
-  font-weight: 600; }
-
-p {
-  font-family: head-font;
-  font-size: 12px; }
-
-#header {
-  width: 100%; }
-
-.hej {
-  width: 90%;
-  justify-content: center;
-  margin: auto; }
-
-.tagline {
-  width: 55%;
-  margin: 30px;
-  float: left; }
-  .tagline__img {
-    width: 100%; }
-
-:root {
-  --buttonGreen: #6eb556;
-  --buttonBlue: #3386C3; }
-
-.profile {
-  float: right;
-  background-color: #e4e4e4;
-  margin-top: -5px;
-  width: 40%;
-  height: 662px; }
-  .profile__blue {
-    height: auto;
-    background-color: #11497b;
-    padding-top: 20px;
-    padding-bottom: 50px; }
-  .profile__name {
-    margin-top: 30px;
-    margin-left: 30px;
-    color: white;
-    font-size: 34px; }
-  .profile__img {
-    border-radius: 50%;
-    width: 33%;
-    float: right;
-    margin-right: 5%; }
-  .profile__title {
-    margin-top: 3px;
-    margin-left: 31px;
-    font-size: 16px;
-    color: white; }
-  .profile__achievements {
-    margin: 30px;
-    font-size: 30px;
-    color: #333333; }
-  .profile__row {
-    margin-top: 15px; }
-  .profile__badge {
-    width: 15%;
-    margin-right: 25px;
-    margin-left: 25px; }
-  .profile__seeall {
-    width: 100px;
-    font-size: 12px;
-    padding: 6px;
-    font-family: head-font;
-    cursor: pointer;
-    letter-spacing: 1px;
-    color: white;
-    background-color: #3386C3;
-    margin: 3%;
-    margin-left: 40%; }
-  .profile__seeall:hover {
-    background-color: #0068b4; }
-  .profile__arrow {
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    margin-left: 5%; }
-  .profile__points {
-    margin: 30px;
-    font-size: 30px;
-    color: #333333; }
-  .profile__amount {
-    width: 25%;
-    float: right; }
-  .profile__buttonDonate {
-    margin-top: 6%;
-    width: 135px;
-    font-size: 14px;
-    color: white;
-    padding: 9px;
-    font-family: head-font;
-    cursor: pointer;
-    letter-spacing: 1px;
-    margin-left: 20px;
-    position: relative;
-    background-color: var(--buttonGreen); }
-  .profile__buttonDonate:hover {
-    --buttonGreen: #4aa22c;
-    background-color: var(--buttonGreen); }
-  .profile__buttonDonate:after {
-    left: 100%;
-    top: 50%;
-    border: solid transparent;
-    content: "";
-    position: absolute;
-    border-width: 18px;
-    margin-top: -18px;
-    border-left-color: var(--buttonGreen); }
-  .profile__buttonPoint {
-    margin-top: 6%;
-    margin-right: 10px;
-    width: 135px;
-    font-size: 14px;
-    color: white;
-    padding: 9px;
-    font-family: head-font;
-    cursor: pointer;
-    letter-spacing: 1px;
-    margin-left: 10px;
-    background-color: var(--buttonBlue); }
-  .profile__buttonPoint:hover {
-    --buttonBlue: #0068b4;
-    background-color: var(--buttonBlue); }
-  .profile__tal {
-    float: right;
-    font-size: 35px;
-    color: #0068b4;
-    margin-right: 15%;
-    margin-top: 8%; }
-  .profile__brodtext {
-    float: right;
-    margin-right: 14%;
-    display: inline-block; }
-
-.donate {
-  color: #6eb556; }
-
-.try {
-  display: inline-block;
-  margin-left: 30%; }
-
-.point {
-  display: inline-block; }
-
-#hi {
-  max-width: 790px;
-  float: left;
-  margin-left: 30px; }
-
-.slider_header {
-  background: #11497b;
-  color: white; }
-
-.slider_header h1 {
-  padding: 10px;
-  text-align: left;
-  margin-left: 15px; }
-
-.slide_control {
-  height: 171px;
-  width: 10px;
-  vertical-align: top;
-  display: inline-block;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 40px;
-  padding-top: 132px; }
-
-.slide_control.l {
-  margin-right: 20px;
-  margin-left: 5px; }
-
-.slide_control.r {
-  margin-right: 5px;
-  margin-left: -10px; }
-
-.slide_control p {
-  font-size: 12px;
-  color: blue; }
-
-.slider_boxes {
-  margin-top: 5px;
-  background: #e4e4e4;
-  width: 704px; }
-
-.slider_main {
-  padding-left: 0;
-  padding-left: 7px;
-  margin-top: 7px; }
-
-.slider_boxes ul {
-  display: inline-block; }
-
-.slider_boxes ul li {
-  display: inline-block;
-  width: 280px;
-  height: 270px;
-  margin-right: 40px;
-  vertical-align: bottom;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-
-.box_img {
-  position: absolute;
-  width: 290px; }
-
-.XXX {
-  display: none !important; }
-
-.slider_box_text {
-  padding: 27px;
-  position: relative;
-  text-align: center; }
-
-.slider_box_text h3 {
-  font-size: 21px;
-  color: rgba(0, 0, 0, 0.87);
-  font-family: head-font;
-  margin-bottom: 12px;
-  position: relative;
-  color: white; }
-
-.slider_box_text p {
-  font-size: 16px;
-  line-height: 25px;
-  color: rgba(0, 0, 0, 0.54);
-  font-family: head-font;
-  position: relative;
-  margin-bottom: 25px;
-  color: white; }
-
-.slider_box_text a {
-  border: 2px solid #f49500;
-  padding: 5px 20%;
-  color: rgba(0, 0, 0, 0.87);
-  text-decoration: none;
-  font-family: head-font;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 12px;
-  color: white;
-  margin-top: 50%; }
-
-.jumpIn {
-  margin-top: 80%; }
-
-.topic-filter {
-  margin: 40px 30px;
-  float: left;
-  width: 98%;
-  background-color: #e4e4e4; }
-
-.timeframe {
-  margin: 20px; }
-
-.radiobtn {
-  display: inline-block; }
-
-.radio {
-  margin: 20px; }
-
-#topics {
-  width: 100%;
-  margin: 20px 0px; }
-
-.tile {
-  float: left;
-  width: 22%;
-  margin: 20px 23px 0px 0px; }
-
-.tile:hover {
-  opacity: 0.5; }
-
 /*
+Error: Invalid CSS after "...rgin-left: 20px": expected "{", was ";"
+        on line 140 of /Users/annabrockdorff/Documents/GitHub/GrundfosProject/sass/style.scss
 
-.new { 
-	background:#00ffb2;
-}
+135:         font-family: head-font;
+136:         cursor: pointer; //musen ændres til en lille hånd
+137:         letter-spacing: 1px; 
+138: <<<<<<< HEAD
+139:         //border: none;
+140:         margin-left: 20px;
+141: =======
+142: >>>>>>> c50e331b8e0c5b5f95b69768faf935d4002d377a
+143:         position: relative; // arrow
+144:         background-color: var(--buttonGreen);
+145:     }
 
-.recom { 
-	background: #ffffb2;
-}
-
-.recent { 
-	background: #ddd; 
-}
-
+Backtrace:
+/Users/annabrockdorff/Documents/GitHub/GrundfosProject/sass/style.scss:140
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
 */
-.btn {
-  padding: 9px;
-  background-color: #999;
-  text-decoration: none;
-  font-family: head-font;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 14px;
-  color: white;
-  display: block;
-  float: left; }
-
-.btn:hover {
-  cursor: pointer;
-  background: #727272;
-  color: white; }
-
-.btn.filter {
-  background-color: #11497b; }
-
-.btn.filter:hover {
-  cursor: pointer;
-  color: white;
-  border-bottom: 4px solid #127bbd; }
-
-.btn.filter:active {
-  cursor: pointer;
-  color: white;
-  border-bottom: 4px solid #127bbd; }
-
-/* Element filtering  ---- w3schools   */
-.container {
-  overflow: hidden;
-  background-color: #11497b;
-  height: 36px; }
-
-.filterDiv {
-  float: left;
-  color: #ffffff;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
-  margin: 2px;
-  margin-left: 18px;
-  display: none;
-  /* Hidden by default */ }
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block; }
-
-/* Dropdown Button   ---- w3schools   */
-.dropbtn {
-  padding: 9px;
-  width: 135px;
-  background-color: #999;
-  text-decoration: none;
-  font-family: head-font;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 14px;
-  color: white;
-  display: block;
-  float: left;
-  margin: 5px; }
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #727272; }
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block; }
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #999;
-  min-width: 230px;
-  margin-top: 50px;
-  z-index: 1; }
-
-/* Change color of dropdown links on hover */
-.dropdown-content .btn:hover {
-  background-color: #727272; }
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
-  display: block; }
-
-/*   filtering topics style end   */
-/* External html documents*/
-.center {
-  margin-left: 25%;
-  margin-top: 10%; }
-
-.center h1 {
-  font-size: 40px;
-  margin-bottom: 5px; }
-
-.center h2 {
-  font-size: 35px;
-  margin-bottom: 5px;
-  margin-left: 15%;
-  color: #11497b; }
-
-.center button {
-  width: 100px;
-  height: 36px; }
-
-/*# sourceMappingURL=style.css.map */
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...rgin-left: 20px\": expected \"{\", was \";\"\A         on line 140 of /Users/annabrockdorff/Documents/GitHub/GrundfosProject/sass/style.scss\A \A 135:         font-family: head-font;\A 136:         cursor: pointer; //musen ændres til en lille hånd\A 137:         letter-spacing: 1px; \A 138: <<<<<<< HEAD\A 139:         //border: none;\A 140:         margin-left: 20px;\A 141: =======\A 142: >>>>>>> c50e331b8e0c5b5f95b69768faf935d4002d377a\A 143:         position: relative; // arrow\A 144:         background-color: var(--buttonGreen);\A 145:     }"; }

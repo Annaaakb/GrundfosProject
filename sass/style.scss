@@ -46,7 +46,7 @@ p {
 
 // PROFILE 
 :root {
-    --buttonGreen: #6eb556;
+    --buttonGreen: #f49500;
     --buttonBlue: #3386C3;
 }
 
@@ -127,7 +127,7 @@ p {
         float: right;
     }
      &__buttonDonate {
-        margin-top: 6%;
+        margin-top: 7%;
         width: 135px;
         font-size: 14px; 
         color: white;
@@ -135,8 +135,11 @@ p {
         font-family: head-font;
         cursor: pointer; //musen ændres til en lille hånd
         letter-spacing: 1px; 
+<<<<<<< HEAD
         //border: none;
         margin-left: 20px;
+=======
+>>>>>>> c50e331b8e0c5b5f95b69768faf935d4002d377a
         position: relative; // arrow
         background-color: var(--buttonGreen);
     }
@@ -155,8 +158,8 @@ p {
         border-left-color: var(--buttonGreen);
     }
     &__buttonPoint {
-        margin-top: 6%;
-        margin-right: 10px;;
+        margin-top: 7%;
+        margin-right: 60px;
         width: 135px;
         font-size: 14px; 
         color: white;
@@ -164,7 +167,6 @@ p {
         font-family: head-font;
         cursor: pointer;
         letter-spacing: 1px; 
-        margin-left: 10px;
         background-color: var(--buttonBlue);
     }
     &__buttonPoint:hover {
@@ -193,7 +195,11 @@ p {
 
 .try {
     display: inline-block;
+<<<<<<< HEAD
     margin-left: 30%;
+=======
+    margin-left: 18%;
+>>>>>>> c50e331b8e0c5b5f95b69768faf935d4002d377a
 }
 
 .point {
