@@ -29,9 +29,13 @@ p {
    font-size: 12px; 
 }
 
+// HEADER
+
 #header{
     width: 100%;
 }
+
+// SLIDE BANNERS
 
 .tagline{
     width: 55%;
@@ -41,6 +45,8 @@ p {
         width: 100%;
     }
 }
+
+// PROFILE 
 
 .profil{
     float: right;
@@ -98,7 +104,6 @@ p {
         //border-radius: 5px;
 }
 
-
 .topics{
    width: 96%;
     height: 250px;
@@ -107,9 +112,6 @@ p {
     margin-top:350px;
 }
 
-
-
-
 // SLIDER JUMP IN START//
 
 #hi {
@@ -117,7 +119,6 @@ p {
     float: left;
     margin-left: 30px;
 }
-
 
 .slider_header{
     background: #11497b;
@@ -144,18 +145,22 @@ p {
   padding-top: 132px;
   //padding-left: 15px;
 }
+
 .slide_control.l{
   margin-right:25px;
     margin-left: 15px;
 }
+
 .slide_control.r{
   margin-right: 15px;
     margin-left: -15px;
 }
+
 .slide_control p {
   font-size:12px;
   color:blue;
 }
+
 .slider_boxes {
   margin-top: 5px;
     background: #e4e4e4;
@@ -165,9 +170,11 @@ p {
   padding-left:0;
     padding-left: 7px;
 }
+
 .slider_boxes ul {
   display:inline-block;
 }
+
 .slider_boxes ul li {
   display: inline-block;
   width: 311px;
@@ -177,18 +184,21 @@ p {
 	vertical-align: bottom;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+
 .box_img{
     position: absolute;}
 
 .XXX {
   display:none !important;
 }
+
 .slider_box_text {
 	padding:27px;
 	position: relative;
   text-align:center;
    
 }
+
 .slider_box_text h3 {
 	font-size: 21px;
 	color: rgba(0,0,0,.87);
@@ -197,6 +207,7 @@ p {
 	position: relative;
     color: white;
 }
+
 .slider_box_text p {
 	font-size: 16px;
 	line-height: 25px;
@@ -206,6 +217,7 @@ p {
   margin-bottom: 25px;
     color: white;
 }
+
 .slider_box_text a {
   border: 2px solid #f49500;
   padding: 5px 20%;
@@ -224,10 +236,10 @@ p {
 }
 
 
-//* SLIDER JUMP IN END*//
+// SLIDER JUMP IN END
 
 
-/* -----  Top topics filter  ---  */
+// TOP TOPICS FILTER
 
 .topic-filter {
 	margin: 100px 30px;
@@ -238,8 +250,6 @@ p {
 .timeframe {
 	margin: 20px;
 }
-
-
 
 #topics { 
 	width:100%; 
@@ -308,8 +318,6 @@ p {
 	margin: 20px;
 }
 
-
-
 /* Element filtering  ---- w3schools   */
 
 .container {
@@ -317,7 +325,6 @@ p {
 	background-color: #999;
 
 }
-
 
 .filterDiv {
     float: left;
@@ -331,10 +338,10 @@ p {
 }
 
 /* The "show" class is added to the filtered elements */
+
 .show {
     display: block;
 }
-
 
 /* Dropdown Button   ---- w3schools   */
 .dropbtn {
@@ -353,19 +360,20 @@ p {
 }
 
 /* Dropdown button on hover & focus */
+
 .dropbtn:hover, .dropbtn:focus {
     background-color: #727272;
 }
 
-
-
 /* The container <div> - needed to position the dropdown content */
+
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -374,13 +382,14 @@ p {
     z-index: 1;
 }
 
-
 /* Change color of dropdown links on hover */
+
 .dropdown-content .btn:hover {
 	background-color: #727272;
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
 .show {
 	display:block;
 }
