@@ -1,6 +1,6 @@
 /*
 Error: Invalid CSS after "": expected selector, was "<<<<<<< HEAD"
-        on line 349 of /Users/anastasiyeah/Documents/GitHub/GrundfosProject/sass/style.scss
+        on line 349 of /Users/trinelangberglarsen/Documents/GitHub/GrundfosProject/sass/style.scss
 
 344: 	cursor:pointer;  
 345: 	color: white;
@@ -15,7 +15,7 @@ Error: Invalid CSS after "": expected selector, was "<<<<<<< HEAD"
 354: 	border-bottom: 4px solid #127bbd;
 
 Backtrace:
-/Users/anastasiyeah/Documents/GitHub/GrundfosProject/sass/style.scss:349
+/Users/trinelangberglarsen/Documents/GitHub/GrundfosProject/sass/style.scss:349
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1188:in `expr!'
@@ -53,4 +53,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"\": expected selector, was \"<<<<<<< HEAD\"\A         on line 349 of /Users/anastasiyeah/Documents/GitHub/GrundfosProject/sass/style.scss\A \A 344: 	cursor:pointer;  \A 345: 	color: white;\A 346: 	border-bottom: 4px solid #127bbd;\A 347: }\A 348: \A 349: <<<<<<< HEAD\A 350: =======\A 351: .btn.filter:active { \A 352: 	cursor:pointer;  \A 353: 	color: white;\A 354: 	border-bottom: 4px solid #127bbd;"; }
+  content: "Error: Invalid CSS after \"\": expected selector, was \"<<<<<<< HEAD\"\A         on line 349 of /Users/trinelangberglarsen/Documents/GitHub/GrundfosProject/sass/style.scss\A \A 344: 	cursor:pointer;  \A 345: 	color: white;\A 346: 	border-bottom: 4px solid #127bbd;\A 347: }\A 348: \A 349: <<<<<<< HEAD\A 350: =======\A 351: .btn.filter:active { \A 352: 	cursor:pointer;  \A 353: 	color: white;\A 354: 	border-bottom: 4px solid #127bbd;"; }
