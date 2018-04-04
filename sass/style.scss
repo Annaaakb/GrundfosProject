@@ -322,6 +322,12 @@ p {
 	border-bottom: 4px solid #127bbd;
 }
 
+.btn.filter:active { 
+	cursor:pointer;  
+	color: white;
+	border-bottom: 4px solid #127bbd;
+}
+
 /* ---- Badges styles  ----  */
 
 .badge {
