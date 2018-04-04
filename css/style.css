@@ -27,7 +27,7 @@ p {
     width: 100%; }
 
 :root {
-  --buttonGreen: #6eb556;
+  --buttonGreen: #f49500;
   --buttonBlue: #3386C3; }
 
 .profile {
@@ -93,7 +93,7 @@ p {
     width: 25%;
     float: right; }
   .profile__buttonDonate {
-    margin-top: 6%;
+    margin-top: 7%;
     width: 135px;
     font-size: 14px;
     color: white;
@@ -101,7 +101,6 @@ p {
     font-family: head-font;
     cursor: pointer;
     letter-spacing: 1px;
-    margin-left: 10px;
     position: relative;
     background-color: var(--buttonGreen); }
   .profile__buttonDonate:hover {
@@ -117,8 +116,8 @@ p {
     margin-top: -18px;
     border-left-color: var(--buttonGreen); }
   .profile__buttonPoint {
-    margin-top: 6%;
-    margin-right: 10px;
+    margin-top: 7%;
+    margin-right: 60px;
     width: 135px;
     font-size: 14px;
     color: white;
@@ -126,14 +125,14 @@ p {
     font-family: head-font;
     cursor: pointer;
     letter-spacing: 1px;
-    margin-left: 10px;
     background-color: var(--buttonBlue); }
   .profile__buttonPoint:hover {
     --buttonBlue: #0068b4;
     background-color: var(--buttonBlue); }
 
 .try {
-  display: inline-block; }
+  display: inline-block;
+  margin-left: 18%; }
 
 .point {
   display: inline-block; }
@@ -314,7 +313,8 @@ p {
 /* Element filtering  ---- w3schools   */
 .container {
   overflow: hidden;
-  background-color: #11497b; }
+  background-color: #11497b;
+  height: 36px; }
 
 .filterDiv {
   float: left;
@@ -373,5 +373,23 @@ p {
   display: block; }
 
 /*   filtering topics style end   */
+/* External html documents*/
+.center {
+  margin-left: 25%;
+  margin-top: 10%; }
+
+.center h1 {
+  font-size: 40px;
+  margin-bottom: 5px; }
+
+.center h2 {
+  font-size: 35px;
+  margin-bottom: 5px;
+  margin-left: 15%;
+  color: #11497b; }
+
+.center button {
+  width: 100px;
+  height: 36px; }
 
 /*# sourceMappingURL=style.css.map */
