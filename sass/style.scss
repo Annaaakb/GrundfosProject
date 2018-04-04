@@ -41,15 +41,16 @@ p {
 
 // PROFILE 
 :root {
-    --buttonColor: #6eb556;
+    --buttonGreen: #6eb556;
+    --buttonBlue: #3386C3;
 }
 
 .profile{
     float: right;
     background-color: #e4e4e4;
-    margin-top: 2%;
+    margin-top: -5px;
     width: 40%;
-    height: 650px;
+    height: 688px;
     &__blue {
         height: auto;
         background-color: #11497b;
@@ -94,10 +95,12 @@ p {
         cursor: pointer;
         letter-spacing: 1px;
         color: white;
-        background-color: #11497b;
-        
+        background-color: #3386C3;
         margin: 3%;
         margin-left: 40%;
+    }
+    &__seeall:hover {
+        background-color: #0068b4;
     }
     &__arrow {
         border: solid white;
@@ -108,16 +111,16 @@ p {
         -webkit-transform: rotate(45deg);
         margin-left: 5%;
     }
-     &__point{
+     &__points{
         margin: 30px;
-        font-size: 30px;
+        font-size: 30px; 
     }
     &__amount {
-        font-family: head-font;
-        font-size: 20px;  
+        width: 25%;
+        float: right;
     }
-     &__button {
-        margin-top: 7%;
+     &__buttonDonate {
+        margin-top: 6%;
         width: 135px;
         font-size: 14px; 
         color: white;
@@ -126,30 +129,49 @@ p {
         cursor: pointer; //musen ændres til en lille hånd
         letter-spacing: 1px; 
         //border: none;
-        margin-left: 5%;
-         
+        margin-left: 10px;
         position: relative; // arrow
-        background-color: var(--buttonColor);
+        background-color: var(--buttonGreen);
     }
-    &__button:hover {
-        --buttonColor: #4aa22c;
-        background-color: var(--buttonColor);
+     &__buttonDonate:hover {
+        --buttonGreen: #4aa22c;
+        background-color: var(--buttonGreen);
+    }
+    &__buttonDonate:after {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: "";
+        position: absolute; 
+        border-width: 18px;
+        margin-top: -18px;
+        border-left-color: var(--buttonGreen);
+    }
+    &__buttonPoint {
+        margin-top: 6%;
+        margin-right: 10px;;
+        width: 135px;
+        font-size: 14px; 
+        color: white;
+        padding: 9px; 
+        font-family: head-font;
+        cursor: pointer;
+        letter-spacing: 1px; 
+        margin-left: 10px;
+        background-color: var(--buttonBlue);
+    }
+    &__buttonPoint:hover {
+        --buttonBlue: #0068b4;
+        background-color: var(--buttonBlue);
     }
 }
 
-.donate:after {
-    left: 100%;
-    top: 50%;
-    border: solid transparent;
-    content: "";
-    position: absolute;
-    //border-radius: 5px; 
-    
-    border-left-color: #6eb556;
-    border-width: 18px;
-    margin-top: -18px;
-        //border-radius: 5px;
-    border-left-color: var(--buttonColor);
+.try {
+    display: inline-block;
+}
+
+.point {
+    display: inline-block;
 }
 
 // SLIDER JUMP IN START//
@@ -204,7 +226,9 @@ p {
 .slider_boxes {
   margin-top: 5px;
     background: #e4e4e4;
+    
 }
+
 
 .slider_main {
   padding-left:0;
@@ -219,14 +243,14 @@ p {
   display: inline-block;
   width: 311px;
 	height: 300px;
-	//background-color: #34648f;//
 	margin-right: 40px;
 	vertical-align: bottom;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .box_img{
-    position: absolute;}
+    position: absolute;
+ }
 
 .XXX {
   display:none !important;
@@ -274,7 +298,6 @@ p {
 .jumpIn{
     margin-top: 80%;
 }
-
 
 // SLIDER JUMP IN END
 
@@ -367,17 +390,6 @@ p {
 	cursor:pointer;  
 	color: white;
 	border-bottom: 4px solid #127bbd;
-}
-
-/* ---- Badges styles  ----  */
-
-.badge {
-	width: 17%;
-	margin: 20px;
-}
-
-.row {
-	margin: 20px;
 }
 
 
