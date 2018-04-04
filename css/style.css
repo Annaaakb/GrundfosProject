@@ -27,14 +27,15 @@ p {
     width: 100%; }
 
 :root {
-  --buttonColor: #6eb556; }
+  --buttonGreen: #6eb556;
+  --buttonBlue: #3386C3; }
 
 .profile {
   float: right;
   background-color: #e4e4e4;
-  margin-top: 2%;
+  margin-top: -5px;
   width: 40%;
-  height: 650px; }
+  height: 688px; }
   .profile__blue {
     height: auto;
     background-color: #11497b;
@@ -72,9 +73,11 @@ p {
     cursor: pointer;
     letter-spacing: 1px;
     color: white;
-    background-color: #11497b;
+    background-color: #3386C3;
     margin: 3%;
     margin-left: 40%; }
+  .profile__seeall:hover {
+    background-color: #0068b4; }
   .profile__arrow {
     border: solid white;
     border-width: 0 3px 3px 0;
@@ -83,14 +86,14 @@ p {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     margin-left: 5%; }
-  .profile__point {
+  .profile__points {
     margin: 30px;
     font-size: 30px; }
   .profile__amount {
-    font-family: head-font;
-    font-size: 20px; }
-  .profile__button {
-    margin-top: 7%;
+    width: 25%;
+    float: right; }
+  .profile__buttonDonate {
+    margin-top: 6%;
     width: 135px;
     font-size: 14px;
     color: white;
@@ -98,23 +101,42 @@ p {
     font-family: head-font;
     cursor: pointer;
     letter-spacing: 1px;
-    margin-left: 5%;
+    margin-left: 10px;
     position: relative;
-    background-color: var(--buttonColor); }
-  .profile__button:hover {
-    --buttonColor: #4aa22c;
-    background-color: var(--buttonColor); }
+    background-color: var(--buttonGreen); }
+  .profile__buttonDonate:hover {
+    --buttonGreen: #4aa22c;
+    background-color: var(--buttonGreen); }
+  .profile__buttonDonate:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: "";
+    position: absolute;
+    border-width: 18px;
+    margin-top: -18px;
+    border-left-color: var(--buttonGreen); }
+  .profile__buttonPoint {
+    margin-top: 6%;
+    margin-right: 10px;
+    width: 135px;
+    font-size: 14px;
+    color: white;
+    padding: 9px;
+    font-family: head-font;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    background-color: var(--buttonBlue); }
+  .profile__buttonPoint:hover {
+    --buttonBlue: #0068b4;
+    background-color: var(--buttonBlue); }
 
-.donate:after {
-  left: 100%;
-  top: 50%;
-  border: solid transparent;
-  content: "";
-  position: absolute;
-  border-left-color: #6eb556;
-  border-width: 18px;
-  margin-top: -18px;
-  border-left-color: var(--buttonColor); }
+.try {
+  display: inline-block; }
+
+.point {
+  display: inline-block; }
 
 #hi {
   max-width: 790px;
@@ -226,8 +248,11 @@ p {
 .timeframe {
   margin: 20px; }
 
+.radiobtn {
   display: inline-block; }
 
+.radio {
+  margin: 20px; }
 
 #topics {
   width: 100%;
@@ -285,14 +310,6 @@ p {
   cursor: pointer;
   color: white;
   border-bottom: 4px solid #127bbd; }
-
-/* ---- Badges styles  ----  */
-.badge {
-  width: 17%;
-  margin: 20px; }
-
-.row {
-  margin: 20px; }
 
 /* Element filtering  ---- w3schools   */
 .container {
