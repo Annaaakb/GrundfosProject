@@ -16,7 +16,7 @@ p {
   font-family: head-font;
   font-size: 12px; }
 
-#header {
+.header {
   width: 100%; }
 
 .hej {
@@ -65,9 +65,7 @@ p {
   .profile__community {
     font-size: 35px;
     color: white;
-    margin-left: 31px;
-    border-radius: 50%;
-    border-color: aliceblue; }
+    margin-left: 31px; }
   .profile__achievements {
     margin: 30px;
     font-size: 30px;

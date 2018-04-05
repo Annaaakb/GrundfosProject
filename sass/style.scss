@@ -24,7 +24,7 @@ p {
 
 // HEADER
 
-#header{
+.header{
     width: 100%;
 }
 
@@ -85,8 +85,6 @@ p {
         font-size: 35px;
         color: white;
         margin-left: 31px;
-        border-radius: 50%;
-        border-color: aliceblue;
     }
      &__achievements{
         margin: 30px;
