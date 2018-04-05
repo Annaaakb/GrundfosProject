@@ -284,8 +284,8 @@ p {
 
 .tile {
   float: left;
-  width: 22%;
-  margin: 20px 23px 0px 0px; }
+  width: 30%;
+  margin: 20px 0px 0px 30px; }
 
 .tile:hover {
   opacity: 0.5; }
