@@ -64,8 +64,8 @@ p {
     color: white; }
   .profile__community {
     font-size: 35px;
-    color: white;
-    margin-left: 31px; }
+    color: #e4e4e4;
+    margin-left: 33px; }
   .profile__achievements {
     margin: 30px;
     font-size: 30px;
