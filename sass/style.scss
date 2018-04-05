@@ -52,14 +52,14 @@ p {
 .profile{
     float: right;
     background-color: #e4e4e4;
-    margin-top: -5px;
+    margin-top: 30px;
     width: 35%;
-    height: 662px;
+    height: 625px;
     &__blue {
         height: auto;
         background-color: #11497b;
-        padding-top: 20px;
-        padding-bottom: 50px;
+        padding-top: 5px;
+        padding-bottom: 10px;
     }
     &__name{
         margin-top: 30px;
@@ -72,12 +72,21 @@ p {
         width: 33%;
         float: right;
         margin-right: 5%;
+        margin-top: -30px;
     }
      &__title{
         margin-top: 3px;
         margin-left: 31px;
+         margin-bottom: 10px;
         font-size: 16px;
         color: white;
+    }
+    &__community {
+        font-size: 35px;
+        color: white;
+        margin-left: 31px;
+        border-radius: 50%;
+        border-color: aliceblue;
     }
      &__achievements{
         margin: 30px;

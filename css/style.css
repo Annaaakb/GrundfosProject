@@ -37,14 +37,14 @@ p {
 .profile {
   float: right;
   background-color: #e4e4e4;
-  margin-top: -5px;
+  margin-top: 30px;
   width: 35%;
-  height: 662px; }
+  height: 625px; }
   .profile__blue {
     height: auto;
     background-color: #11497b;
-    padding-top: 20px;
-    padding-bottom: 50px; }
+    padding-top: 5px;
+    padding-bottom: 10px; }
   .profile__name {
     margin-top: 30px;
     margin-left: 30px;
@@ -54,12 +54,20 @@ p {
     border-radius: 50%;
     width: 33%;
     float: right;
-    margin-right: 5%; }
+    margin-right: 5%;
+    margin-top: -30px; }
   .profile__title {
     margin-top: 3px;
     margin-left: 31px;
+    margin-bottom: 10px;
     font-size: 16px;
     color: white; }
+  .profile__community {
+    font-size: 35px;
+    color: white;
+    margin-left: 31px;
+    border-radius: 50%;
+    border-color: aliceblue; }
   .profile__achievements {
     margin: 30px;
     font-size: 30px;
