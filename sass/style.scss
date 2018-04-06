@@ -533,4 +533,57 @@ p {
     height: 36px;
 }
 
+/* PRODUCT LIST */ 
+
+.productA {
+    margin: 20px 30px;
+    float: left;
+    width: 98%;
+    background-color: #e4e4e4;
+}
+
+.hover {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.productList {
+    padding: 3%;
+    overflow: hidden;
+    &__box {
+        overflow: hidden;
+       position: relative;
+        margin: 10px;
+        float: left;
+    }
+    &__cart {
+      top: 40%;
+      left: 28%;
+      background: #6eb556;
+      color: white;
+      padding: 10px 25px;
+      font-size: 14px;
+      position: absolute;
+        text-decoration: none;
+        font-family: head-font;
+    }
+    &__cart:hover {
+        background: #4aa22c;
+    }
+    
+    &:hover {      
+      .hover {
+        opacity: 1;
+      }
+      
+      img,
+      .new {
+        filter: blur(1px);
+        -o-filter: blur(1px);
+        -ms-filter: blur(1px);
+        -moz-filter: blur(1px);
+        -webkit-filter: blur(1px);
+      }
+    }
+}
 
