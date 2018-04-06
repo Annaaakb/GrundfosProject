@@ -533,74 +533,20 @@ p {
     height: 36px;
 }
 
-/* PRODUCT LIST
+/* PRODUCT LIST */
 
-.productA {
+.product {
     margin: 20px 30px;
     float: left;
     width: 98%;
     background-color: #e4e4e4;
 }
 
-.hover {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.relative {
-    position: relative;
-}
-
-.absolute {
-    position: absolute;
-}
-
-.productList {
-    padding: 3%;
-    overflow: hidden;
-    li {
-        overflow: hidden;
-        margin: 10px;
-        float: left;
-    }
-    .cart {
-      top: 40%;
-      left: 28%;
-      background: #6eb556;
-      color: white;
-      padding: 10px 25px;
-      font-size: 14px;
-      //position: absolute;
-        text-decoration: none;
-        font-family: head-font;
-
-    .cart:hover {
-        background: #4aa22c;
-    }
-}
-    
-      &:hover {      
-      .hover {
-        opacity: 1;
-      }
-      
-      img {
-        filter: blur(1px);
-        -o-filter: blur(1px);
-        -ms-filter: blur(1px);
-        -moz-filter: blur(1px);
-        -webkit-filter: blur(1px);
-      }
-    }
-}
-
-*/
-
-.productA {
-    margin: 20px 30px;
-    float: left;
-    width: 98%;
-    background-color: #e4e4e4;
+.productName {
+    color: white;
+    text-align: left;
+    padding: 10px;
+    margin-left: 15px;
 }
 
 .absolute {
@@ -616,10 +562,6 @@ p {
   transition: opacity 0.3s ease;
 }
 
-.radius {
-  //border-radius: 5px;
-}
-
 .product-list {
   overflow: hidden;
   
@@ -633,22 +575,35 @@ p {
      padding-top: 20px;
      padding-right: 25px
     }
+      
+     h2 {
+        font-family: head-font;
+         font-size: 20px;
+         margin: 10px;
+         margin-left: 35px;
+      }
+      
+      h3 {
+         font-family: head-font;
+         font-size: 15px;
+         margin: 10px;
+         margin-left: 35px;
+          
+      }
  
     .add-to-cart {
       top: 40%;
-      left: 28%;
-        text-decoration: none;
-        font-family: head-font;
+      left: 35%;
+      text-decoration: none;
+      font-family: head-font;
       background: #6eb556;
       color: white;
       padding: 10px 25px;
-      font-size: 16px;
+      font-size: 14px;
+      letter-spacing: 1px;
         
-      //border: 1px solid #f99;
-      
       &:hover {
         background: #4aa22c;
-        //border-color: #aaa;
       }
     }
     
@@ -671,8 +626,3 @@ p {
   }
   
 }
-
-
- 
- 
-
