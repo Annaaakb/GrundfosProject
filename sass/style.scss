@@ -367,9 +367,8 @@ p {
 .tile { 
 	float:left; 
 	width:30%; 
-	margin: 20px 0px 0px 30px;
+	margin: 20px 0px 0px 33px;
 }
-
 .tile:hover { 
 	opacity: 0.5; 
 }
@@ -391,17 +390,22 @@ p {
 */
 
 
+.underfilter {
+	margin-left: 15px;
+}
+
 .btn { 
-	padding: 9px;
+	padding: 11px 9px 4px 9px;
 	background-color: #999;
 	text-decoration: none; 
 	font-family: head-font; 
 	text-transform:uppercase;
 	letter-spacing: 1px;
-	font-size: 14px; 
+	font-size: 16px; 
 	color: white; 
 	display:block; 
 	float:left;
+	margin-left: 15px;
 }
 
 
@@ -418,14 +422,14 @@ p {
 .btn.filter:hover { 
 	cursor:pointer;  
 	color: white;
-	border-bottom: 4px solid #127bbd;
+	border-bottom: 6px solid #127bbd;
 }
 
 
 .btn.filter:active { 
 	cursor:pointer;  
 	color: white;
-	border-bottom: 4px solid #127bbd;
+	border-bottom: 6px solid #127bbd;
 }
 
 
