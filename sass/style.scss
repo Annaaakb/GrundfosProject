@@ -533,7 +533,7 @@ p {
     height: 36px;
 }
 
-/* PRODUCT LIST */ 
+/* PRODUCT LIST
 
 .productA {
     margin: 20px 30px;
@@ -547,29 +547,111 @@ p {
   transition: opacity 0.3s ease;
 }
 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
 .productList {
     padding: 3%;
     overflow: hidden;
-    &__box {
+    li {
         overflow: hidden;
-       position: relative;
         margin: 10px;
         float: left;
     }
-    &__cart {
+    .cart {
       top: 40%;
       left: 28%;
       background: #6eb556;
       color: white;
       padding: 10px 25px;
       font-size: 14px;
-      position: absolute;
+      //position: absolute;
         text-decoration: none;
         font-family: head-font;
-    }
-    &__cart:hover {
+
+    .cart:hover {
         background: #4aa22c;
     }
+}
+    
+      &:hover {      
+      .hover {
+        opacity: 1;
+      }
+      
+      img {
+        filter: blur(1px);
+        -o-filter: blur(1px);
+        -ms-filter: blur(1px);
+        -moz-filter: blur(1px);
+        -webkit-filter: blur(1px);
+      }
+    }
+}
+
+*/
+
+.productA {
+    margin: 20px 30px;
+    float: left;
+    width: 98%;
+    background-color: #e4e4e4;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.hover {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.radius {
+  //border-radius: 5px;
+}
+
+.product-list {
+  overflow: hidden;
+  
+  li {
+    overflow: hidden;
+    float: left;
+    margin: 10px;
+    
+    img {
+     padding-left: 31px;
+     padding-top: 20px;
+     padding-right: 25px
+    }
+ 
+    .add-to-cart {
+      top: 40%;
+      left: 28%;
+        text-decoration: none;
+        font-family: head-font;
+      background: #6eb556;
+      color: white;
+      padding: 10px 25px;
+      font-size: 16px;
+        
+      //border: 1px solid #f99;
+      
+      &:hover {
+        background: #4aa22c;
+        //border-color: #aaa;
+      }
+    }
+    
     
     &:hover {      
       .hover {
@@ -585,5 +667,12 @@ p {
         -webkit-filter: blur(1px);
       }
     }
+    
+  }
+  
 }
+
+
+ 
+ 
 
