@@ -272,20 +272,15 @@ p {
   width: 98%;
   background-color: #e4e4e4; }
 
-.radiobtn {
-  display: inline-block; }
-
-.radio {
-  margin: 20px; }
-
 #topics {
   width: 100%;
   margin: 20px 0px; }
 
 .tile {
+  text-align: center;
   float: left;
   width: 30%;
-  margin: 20px 0px 0px 33px; }
+  margin: 20px 0px 20px 27px; }
 
 .tile:hover {
   opacity: 0.5; }
@@ -306,7 +301,7 @@ p {
 
 */
 .underfilter {
-  margin-left: 15px; }
+  margin: 0px 0px 50px 15px; }
 
 .btn {
   padding: 11px 9px 4px 9px;
@@ -345,23 +340,8 @@ p {
   background-color: #11497b;
   height: 36px; }
 
-.filterDiv {
-  float: left;
-  color: #ffffff;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
-  margin: 2px;
-  margin-left: 18px;
-  display: none;
-  /* Hidden by default */ }
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block; }
-
-/* Dropdown Button   ---- w3schools   */
-.dropbtn {
+/* Dropdown Button  */
+.dropBtn {
   padding: 9px;
   width: 135px;
   background-color: #999;
@@ -375,17 +355,17 @@ p {
   float: left;
   margin: 5px; }
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #727272; }
+/* Dropdown Content  */
+nav div {
+  display: none; }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block; }
+.show {
+  display: block; }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+.underfilter div {
+  position: absolute; }
+
+.drpContent {
   display: none;
   position: absolute;
   background-color: #999;
@@ -393,13 +373,8 @@ p {
   margin-top: 50px;
   z-index: 1; }
 
-/* Change color of dropdown links on hover */
-.dropdown-content .btn:hover {
+.drpContent .btn:hover {
   background-color: #727272; }
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
-  display: block; }
 
 /*   filtering topics style end   */
 /* External html documents*/

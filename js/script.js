@@ -1,3 +1,6 @@
+/* ---  slider ---- */
+
+
 function sliderClickRight1(){
 	$('#hi .aaa').addClass('XXX').removeClass('aaa');
 	$('#hi .bbb').addClass('aaa').removeClass('bbb');
@@ -10,25 +13,6 @@ function sliderClickLeft1(){
 	$('#hi ul.slider_main').prepend($('#hi li.XXX:last-child'));
 	$('#hi .XXX:nth-child(1)').addClass('aaa').removeClass('XXX');
 }
-
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("donateSlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 12000); // Change image every 12 seconds
-}
-
-
-
-
 
 
 /* ---  filter overfaner ---- */
@@ -49,84 +33,42 @@ $(function() {
 });
 
 
-
 /* ---  filter dropdowns ---- */
 
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+	// add an eventlistener to the .underfilter container element
+	document.querySelector('.underfilter').addEventListener("click", function (e) {
+	  
+	  // make sure that we clicked on a button element
+	  if(e.target.nodeName === "BUTTON") {
+		console.log(e.target.nodeName);
+		console.log(e.target.nextElementSibling);
+		
+		// The next element is the div we want to show
+		let nextElement = e.target.nextElementSibling;
 
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+		// If it already has a show class, then remove all
+		if(nextElement.className === "show") {
+			removeAllShowClasses();
+		} else {
+			// remove all classes
+			removeAllShowClasses();
+			// and then add a "show" class on this element
+			nextElement.className = "show";
+		}
+		e.stopPropagation();
+	  }	
+	});
 
-function filterFunction() {
-  var filter, p, ul, li, a, i ;
-  div = document.getElementById("myDropdown");
-  btn = div.getElementsByClassName("btn");
-  for (i = 0; i < a.length; i++) {
-    if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
-      btn[i].style.display = "";
-    } else {
-      btn [i].style.display = "none";
-    }
-  }
-}
+	function removeAllShowClasses() {
+		// remove all classes from the divs
+		document.querySelectorAll(".underfilter div").forEach(
+			function(elm) {
+				console.log(elm.className = "");
+			}
+		);
+	}
 
-
-
-// FILTER SELECTION
-
-
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-	
-  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-	
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-// Show filtered elements
-
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {
-      element.className += " " + arr2[i];
-    }
-  }
-}
-
-// Hide elements that are not selected
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1); 
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-// Add active class to the current control button (highlight it)
-
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-
+	document.querySelector("body").addEventListener("click", function () {
+		console.log("clicked on body");
+		removeAllShowClasses();
+	});
