@@ -150,7 +150,8 @@ p {
   .profile__brodtext {
     float: right;
     margin-right: 11%;
-    display: inline-block; }
+    display: inline-block;
+    color: #333; }
 
 .donate {
   color: #6eb556; }
@@ -433,12 +434,14 @@ nav div {
       font-family: head-font;
       font-size: 20px;
       margin: 10px;
-      margin-left: 35px; }
+      margin-left: 35px;
+      color: #333; }
     .product-list li h3 {
       font-family: head-font;
       font-size: 15px;
       margin: 10px;
-      margin-left: 35px; }
+      margin-left: 35px;
+      color: #333; }
     .product-list li .add-to-cart {
       top: 40%;
       left: 35%;
