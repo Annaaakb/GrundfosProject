@@ -381,9 +381,8 @@ p {
 
 */
 
-
-.underfilter {
-	margin: 0px 0px 50px 15px;
+.filter {
+	float: left;
 }
 
 .btn { 
@@ -398,6 +397,13 @@ p {
 	display:block; 
 	margin-left: 15px;
 }
+.underfilter {
+	margin: 0px 0px 50px 15px;
+}
+
+
+
+
 
 
 .btn:hover { 
@@ -429,8 +435,7 @@ p {
 .container {
     overflow: hidden;
 	background-color: #11497b;
-    height: 36px;
-
+    height: 36px;	
 }
 
 

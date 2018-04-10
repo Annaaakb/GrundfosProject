@@ -301,8 +301,8 @@ p {
 }
 
 */
-.underfilter {
-  margin: 0px 0px 50px 15px; }
+.filter {
+  float: left; }
 
 .btn {
   padding: 11px 9px 4px 9px;
@@ -315,6 +315,9 @@ p {
   color: white;
   display: block;
   margin-left: 15px; }
+
+.underfilter {
+  margin: 0px 0px 50px 15px; }
 
 .btn:hover {
   cursor: pointer;
