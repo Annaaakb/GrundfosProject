@@ -396,7 +396,6 @@ p {
 	font-size: 16px; 
 	color: white; 
 	display:block; 
-	float:left;
 	margin-left: 15px;
 }
 
@@ -461,6 +460,7 @@ nav div {
 
 .show {
 	display: block;
+	margin-top: 50px;
 }
 
 .underfilter div {
