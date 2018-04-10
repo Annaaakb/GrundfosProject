@@ -28,10 +28,11 @@ p {
     width: 100%;
 }
 
-.hej{
+.wrapper{
    margin-left: 100px;
-    margin-right: 120px;
+   margin-right: 120px;
 }
+
 // SLIDE BANNERS
 
 .tagline{
@@ -55,7 +56,7 @@ p {
     margin-top: 30px;
     width: 35%;
     height: 625px;
-    &__blue {
+    &__background {
         height: auto;
         background-color: #11497b;
         padding-top: 5px;
@@ -193,7 +194,7 @@ p {
     color: #6eb556;
 }
 
-.try {
+.buttonsProfile {
     display: inline-block;
     margin-left: 31%;
 }
